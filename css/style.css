@@ -1,0 +1,657 @@
+
+/*-----Comienza CONFIG-----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600&display=swap');
+
+
+
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #0f0f0f;
+	margin: auto;
+
+
+}
+
+
+.containerindex{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto auto auto;
+	grid-template-areas: 
+	"nav"
+	"header"
+	"main" 
+	"footer";
+
+}
+
+#header1{
+	grid-area: header;
+
+
+
+	
+}
+
+#nav1{
+	grid-area: nav;
+
+}
+
+
+
+#main1{
+	grid-area: main;
+
+
+
+}
+
+#footer1{
+	grid-area: footer;
+
+}
+
+
+
+h1{
+	font-size: 2em;
+	color: white;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	font-family: 'Oswald','Roboto' ;
+
+}
+
+
+h2{
+	font-size: 2em;
+	color: white;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+}
+h3,h4{
+	font-size: 1.4em;
+	color: white;
+	margin-top: 0em;
+	margin-bottom: 0.2em;
+}
+
+p{
+	font-size: 1.1em;
+	margin: 0.6em 0;
+	color: white;
+
+}
+
+.border{
+	border: 1px solid;
+}
+
+.wid-main{
+	width: 80%;
+	margin: 0px auto;
+}
+
+.mg-0{
+	margin: 0;
+}
+
+.pd-0{
+	padding: 0;
+}
+.pd-1{
+	padding: 1em;
+}
+
+
+.map{
+	border-radius: 20px;
+}
+
+.wideph{
+
+	background-image: url(../img/wideph/latam.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+
+.wideph-info{
+
+	background-image: url(../img/wideph/elabo2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+
+.wideph-index{
+
+	background-image: url(../img/wideph/vaso2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+
+}
+
+.wideph-content{
+	border: 0.5px solid #efb810;
+	border-radius: 25px;
+	padding: 3em;
+	margin: 5em 7%;
+
+}
+
+.wideph-content h2{
+	color: #efb810;
+}
+
+.wideph-content p{
+	color: white;
+}
+
+.border-fine{
+	border: 0.5px solid #cccccc;
+	border-radius: 10px;
+	padding: 1.5em;
+}
+
+.start{
+	animation-name: start;
+	animation-duration: 2s;
+
+}
+
+/*.white-txt h3{
+	border-bottom: 1px solid #262626;
+	
+}
+*/
+/*-----Ends CONIFG-----*/
+
+
+
+
+
+
+
+
+
+/*-----Comienza HEADER-----*/
+
+
+.headerimg h2{
+	color: #ffeece;
+	text-align: center;
+}
+.headerimg p{
+	color: #ffeece;
+	text-align: right;
+	
+}
+
+.header-content{
+	bordr: 0.25px solid #ffeece;
+	border-radius: 10px;
+	padding: 2em;
+	/*box-shaow: 0px 0px 10px #242424;*/
+	width: 80%;
+	margin: auto;
+	animation-name: start;
+	animation-duration: 2s;
+	display: flex;
+	
+
+
+}
+.header-content img{
+	width: 30em;
+	min-width: 10em;
+}
+
+@keyframes start{
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}
+
+
+main img{
+	width: 100%;
+	margin: 0.2em 0;
+}
+
+
+.headerimg{
+ 		background: url(../img/wideph/all3.jpg);
+ 		background-repeat: no-repeat;
+ 		background-attachment: fixed;
+ 		background-position: center;
+  		background-size: cover;
+  		padding: 3%;
+}
+
+.headerimg-info{
+ 		background: url(../img/wideph/scotland.jpg);
+ 		background-repeat: no-repeat;
+ 		background-attachment: fixed;
+  		padding: 15%;
+}
+
+.headerimg-prod{
+ 		background: url(../img/wideph/barrel.jpg);
+ 		background-repeat: no-repeat;
+ 		background-attachment: fixed;
+  		padding: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----Ends HEADER-----*/
+
+
+/*-----Comienza NAV-----*/
+
+.nav{
+	display: flex;	
+	align-items: center;
+	justify-content: space-between;
+	background: #0f0f0f;
+	padding: 0.5em 10%;
+	box-shadow: 0px 0px 10px #5c5c5c5c;
+
+
+}
+
+.nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.nav ul li a{
+		font-size: 0.9em;
+		font-weight: 400;
+		text-decoration: none;
+		color: white;
+		font-family: Roboto, sans-serif;
+		margin: 10px;
+
+}
+
+.nav ul li a:hover{
+	color: #ffc800;
+}
+
+
+.logo {
+	width: 3.5em;
+}
+	
+
+
+
+
+
+
+
+
+/*-----Ends nav-----*/
+
+.border-1{
+	border: 1px solid #262626;
+	border-radius: 25px;
+	padding: 1em;
+	margin:  1em 7%;
+}
+
+
+.img-fnd{
+	background-image: url(../img/prod/bck2.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.dos-img{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+
+.dos-img img:hover{
+	transform: scale(1.1);
+	transition: 1s;
+	cursor: pointer;
+}
+
+
+.dos-img img{
+	min-width: 20em;
+	max-width: 23em;
+	margin: 3em 7em;
+}
+.txt-c{
+	text-align: center;
+}
+
+
+.w-small{
+	width: 5em;
+}
+
+.bg-07{
+	background-color: #070707;
+
+}
+
+.bg-y{
+	background-color: #070707;
+	padding: 1em 0;
+}
+.line{
+	height: 26vw;
+
+	width: 1px;
+	background-color: #262626;
+	margin: 2em;
+}
+
+.img-wide{
+
+
+	object-fit: contain;
+	background-image: url(../img/wideph/widevasos.jpg);
+	background-position: middle;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-size: cover;
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 5%;
+}
+
+
+
+.img-prom{
+	border-radius: 0px 20px 20px 20px ;
+}
+
+.Button {
+	background-color:transparent;
+	border-radius:50px;
+	border:1px solid #cccccc;
+
+	cursor:pointer;
+	color: #242424;
+	font-size:17px;
+	padding:0.5em 1em;
+	text-decoration:none;
+
+}
+
+.Button:hover{
+	color: #ffda00;
+	border: 1px solid;
+}
+
+
+
+/*-----Comienza Tienda-----*/
+
+.galeria{
+	display: flex;
+
+
+}
+
+.producto img{
+	border-radius: 30px 30px 0 0 ;
+}
+
+.producto{
+	width: 30%;
+	border: px solid;
+	border-radius: 30px;
+	margin: 0 1em;
+	padding: 1em;
+}
+
+
+
+.prod-style{
+	padding: 1em;
+	background-color: #cccccc;
+	border-radius: 0 0 30px 30px;
+}
+
+
+.sabores img{
+	width: 5em;
+	min-width: 20em;
+	margin-right: 1em;
+	margin: 0 1em;
+	box-shadow: 10px black;
+
+}
+
+.box-prod{
+	background-image: url(../img/bckgrounds/bg1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 25px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1em;
+}
+
+
+.sabores{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	borde: 1px solid #cccccc;
+	border-radius: 25px;
+	padding: 2em;
+	width: 46%;
+	min-width: 40em%;
+	margin: 1em;
+
+
+}
+
+
+
+.sabores p{
+	border-top: 1px solid #efb810;
+	padding-top: 0.8em;
+
+}
+
+.sabores h3{
+	font-size: 1.7em;
+}
+
+
+.productos-in{
+	
+}
+
+.sabores-cont{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 90%;
+	margin:  1em auto;
+
+}
+
+
+
+/*.sabor-txt{
+	border-radius: 20px;
+	background-color: #c1c1c1;
+	padding: 2em;
+}*/
+
+
+/*-----Ends Tienda-----*/
+
+/*---Shit! it´s Animation time---*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ENDS Animation time*/
+
+
+/*---Comienza FORM---*/
+
+fieldset {
+	border: 0;
+	font-size: 1.2em;
+	margin: 0.5em 0;
+	
+}
+
+input, textarea, select{
+font-size: 0.8em;
+background-color: #cccccc;
+}
+
+.contact-input{
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+}
+.contacto label{
+	color: white;
+
+}
+
+.contacto input{
+	color: white;
+
+}
+.contacto select, textarea{
+	
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  
+ 
+}
+
+.button-enviar{
+	width: 40%;
+	background-color: transparent;
+	padding: 12px; 
+	border: 1px solid #ccc; 
+	border-radius: 5px; 
+	margin-top: 6px;
+	cursor: pointer;
+}
+
+.button-reset{
+	width: 20%;
+	background-color: transparent;
+	padding: 12px; 
+	border: 1px solid #ccc; 
+	border-radius: 5px; 
+	margin-top: 6px;
+	margin-right: 1em;
+	cursor: pointer;
+}
+
+
+.cont-btn{
+	display: flex;
+	justify-content: flex-end;
+}
+/*---ENDS FORM---*/
+
+
+
+
+/*-----Comienza FOOTER-----*/
+
+footer{
+	border-top: 1px solid #262626;
+	background-color: #0f0f0f;
+ 	padding: 2% 10%;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+
+
+}
+
+.redes{
+	width: 35px;
+	
+}
+
+.footlogo{
+	width: 80px;
+	
+}
+
+footer a{
+	margin: 0 5px;
+}
+/*-----Ends FOOTER-----*/

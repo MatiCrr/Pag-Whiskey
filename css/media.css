@@ -1,0 +1,151 @@
+
+
+@media only screen and (max-width: 1400px){
+
+
+
+.sabores{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	border: 1px solid #cccccc;
+	border-radius: 25px;
+	padding: 2em;
+	width: 100%;
+	min-width: 40em%;
+	margin-bottom: 1em;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
+.sabores img{
+	min-width: 25em;
+
+
+}
+
+.border-1{
+	border: 0px;
+}
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1275px){
+
+.line{
+	display: none;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+	body{
+
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto auto auto;
+	grid-template-areas: 
+	"nav"
+	"header"
+	"main" 
+	"footer";
+
+}	
+
+.h-line{
+	width: 60%;
+	height: 1px;
+	background-color: #242424;
+	margin: 1em 0;
+
+}
+
+.nav{
+	flex-direction: column;
+	padding-bottom: .5em;
+}
+
+
+.logo{
+	margin-top: 1em;
+
+}
+
+
+}
+
+@media only screen and (max-width: 537px){
+
+*{
+	;
+}
+
+
+
+h1{
+	font-size: 2.0em;
+
+
+}
+
+
+h2{
+	font-size: 1.8em;
+
+}
+h3,h4{
+	font-size: 1.4em;
+
+}
+
+p{
+	font-size: 1.1em;
+
+
+}
+
+.dos-img img{
+	width: 20px;
+
+}
+
+.wideph-content{
+	padding: 2em;
+}
+.header-content{
+
+	padding: 1em;
+
+}
+
+
+
+.nav ul li a{
+		
+
+		margin: .6em;
+
+}
+.nav ul li a{
+		font-size: 1em;
+
+}
+
+
+}
+
+
+
+
