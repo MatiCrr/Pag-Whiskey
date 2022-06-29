@@ -12,7 +12,7 @@
 	box-sizing: border-box;
 }
 
-body{
+.containerindex{
 	background-color: #0f0f0f;
 	margin: auto;
 
@@ -61,7 +61,10 @@ body{
 
 
 
-h1{
+
+}
+
+.main-m h1{
 	font-size: 2em;
 	color: white;
 	margin-top: 0.5em;
@@ -70,14 +73,16 @@ h1{
 
 }
 
-
-h2{
+main h2{
 	font-size: 2em;
 	color: white;
 	margin-top: 0.5em;
 	margin-bottom: 0.2em;
 }
-h3,h4{
+
+
+
+main h3,h4{
 	font-size: 1.4em;
 	color: white;
 	margin-top: 0em;
@@ -110,8 +115,9 @@ p{
 .pd-1{
 	padding: 1em;
 }
-
-
+.bg-0f{
+	background-color: #0f0f0f;
+}
 .map{
 	border-radius: 20px;
 }
@@ -242,7 +248,7 @@ main img{
  		background-repeat: no-repeat;
  		background-attachment: fixed;
  		background-position: start;
-  	background-size: contain;
+  	background-size: cover;
   	padding: 3%;
 }
 
@@ -274,7 +280,7 @@ main img{
 
 /*-----Comienza NAV-----*/
 
-.nav{
+/*.nav{
 	display: flex;	
 	align-items: center;
 	justify-content: space-between;
@@ -305,16 +311,36 @@ main img{
 }
 
 
-.logo {
-	width: 3.5em;
+
+
+*/
+.container-fluid{
+	display: flex;
+	justify-content: space-between;
 }
-	
 
+.navbar	{
+		display: flex;
+		justify-content: space-between;
 
+}
+.logo {
+	width: 3em;
+}
 
+.nav-item a{
+	color: white;
+	font-size: 1em;
+		font-weight: 400;
+		text-decoration: none;
+		color: white;
+		font-family: Roboto, sans-serif;
+		margin: 5px;
+}
 
-
-
+.nav-item a:hover{
+	color: #EABE3F;
+}
 
 
 /*-----Ends nav-----*/
