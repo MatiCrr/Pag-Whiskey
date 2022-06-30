@@ -74,12 +74,7 @@
 	
 }
 
-.headerimg{
-	background-attachment: none;
- 	background-position: start;
-  	background-size: cover;
-  	padding: 3%;
-}
+
 
 .dos-img img{
 	min-width: 20em;
@@ -91,7 +86,21 @@
 
 @media only screen and (max-width: 537px){
 
+.wideph-index{
 
+	background-image: url(../img/wideph/barrel537.jpg);
+	
+
+}
+.headerimg{
+	
+ 	background-image: url(../img/wideph/all500.jpg);
+ 	background-position: start;
+
+ 	background-size: cover;
+
+
+}
 
 .logo{
 	width: 2.5em
@@ -123,6 +132,10 @@ main p{
 .dos-img img{
 	width: 20px;
 
+}
+
+.header-content img{
+	padding: 0;
 }
 
 .wideph-content{

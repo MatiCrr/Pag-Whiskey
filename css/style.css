@@ -68,7 +68,7 @@ body img{
 
 
 
-main h1{
+#main1 h1{
 	color: white;
 	font-family: 'Oswald', sans-serif;
 
@@ -80,11 +80,11 @@ main h1{
 
 main h2{
 	
-	font-size: 1.8em;
+	font-size: 1.6em;
 	font-family: 'Roboto', sans-serif;
 	color: white;
 	margin-top: .5em;
-	margin-bottom: .5em;
+	margin-bottom: .2em;
 }
 
 
@@ -142,6 +142,7 @@ p{
 }
 .map{
 	border-radius: 20px;
+	saturation: -100
 }
 
 .wideph{
@@ -152,6 +153,11 @@ p{
 	background-size: cover;
 	display: flex;
 	align-items: center;
+}
+
+.wideph h3{
+
+	color: #efb810;
 }
 
 .wideph-info{
@@ -221,15 +227,6 @@ p{
 /*-----Comienza HEADER-----*/
 
 
-.headerimg h2{
-	color: #ffeece;
-	text-align: center;
-}
-.headerimg p{
-	color: #ffeece;
-	text-align: right;
-	
-}
 
 .header-content{
 	width: 80%;
@@ -269,7 +266,7 @@ main img{
  		background: url(../img/wideph/all3.jpg);
  		background-repeat: no-repeat;
  		background-attachment: fixed;
- 		background-position: start;
+ 		background-position: center;
   	background-size: cover;
   	padding: 3%;
 }
