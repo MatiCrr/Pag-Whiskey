@@ -39,7 +39,7 @@
 
 
 
-@media only screen and (max-width: 1275px){
+@media only screen and (max-width: 1455px){
 
 .line{
 	display: none;
@@ -54,10 +54,7 @@
 @media only screen and (max-width: 768px){
 
 .h-line{
-	width: 60%;
-	height: 1px;
-	background-color: #242424;
-	margin: 1em 0;
+	
 
 }
 
@@ -67,20 +64,23 @@
 }
 
 
-.logo{
-	margin-top: 1em;
 
-}
 .header-content{
 
 	justify-content: center;
 }
+.header-content img{
+	
+	
+}
+
 .headerimg{
 	background-attachment: none;
  	background-position: start;
   	background-size: cover;
   	padding: 3%;
 }
+
 .dos-img img{
 	min-width: 20em;
 	max-width: 23em;
@@ -93,25 +93,28 @@
 
 
 
+.logo{
+	width: 2.5em
 
+}
 
-h1{
+main h1{
 	font-size: 2.0em;
 
 
 }
 
 
-h2{
+main h2{
 	font-size: 1.8em;
 
 }
-h3,h4{
+main h3,h4{
 	font-size: 1.4em;
 
 }
 
-p{
+main p{
 	font-size: 1.1em;
 
 
