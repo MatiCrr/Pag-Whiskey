@@ -2,6 +2,7 @@
 /*-----Comienza CONFIG-----*/
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 
 
@@ -61,21 +62,21 @@
 
 
 
-
-}
-
-.main-m h1{
-	font-size: 2em;
+main h1{
 	color: white;
-	margin-top: 0.5em;
-	margin-bottom: 0.2em;
-	font-family: 'Oswald','Roboto' ;
+	font-family: 'Oswald', sans-serif;
+
 
 }
+
+
+
 
 main h2{
+	
 	font-size: 2em;
 	color: white;
+	font-family: 'Oswald', sans-serif;
 	margin-top: 0.5em;
 	margin-bottom: 0.2em;
 }
@@ -84,6 +85,8 @@ main h2{
 
 main h3,h4{
 	font-size: 1.4em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 	color: white;
 	margin-top: 0em;
 	margin-bottom: 0.2em;
@@ -91,6 +94,7 @@ main h3,h4{
 
 p{
 	font-size: 1.1em;
+	font-family: 'Roboto', sans-serif;
 	margin: 0.6em 0;
 	color: white;
 
@@ -103,6 +107,10 @@ p{
 .wid-main{
 	width: 80%;
 	margin: 0px auto;
+}
+
+.main-txt{
+	padding: 2em 0;
 }
 
 .mg-0{
@@ -387,6 +395,7 @@ main img{
 
 .w-small{
 	width: 5em;
+	margin: 1.2em 0;
 }
 
 .bg-07{
