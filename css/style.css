@@ -348,6 +348,7 @@ main img{
 .navbar	{
 		display: flex;
 		justify-content: space-between;
+		background-color: transparent;
 
 }
 .logo {
