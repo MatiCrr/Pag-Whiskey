@@ -221,6 +221,10 @@ p{
 	
 }
 */
+
+.border-top1{
+	border-top: 1px solid #303030;
+}
 /*-----Ends CONIFG-----*/
 
 
@@ -236,7 +240,7 @@ p{
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
-		padding: 10% 0;
+		padding: 12% 0;
 }
 .header-txt-content{
 		display: flex;
