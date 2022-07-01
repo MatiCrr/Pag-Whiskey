@@ -106,13 +106,14 @@
  	background-image: url(../img/wideph/all500.jpg);
  	background-position: start;
  	background-size: cover;
- 	background-attachment: unset;
+ 	background-position: scroll;
 
 
 }
 
 .logo{
-	width: 2em
+	width: 2em;
+
 
 }
 
