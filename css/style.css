@@ -232,24 +232,50 @@ p{
 
 
 /*-----Comienza HEADER-----*/
-
-
-
-.header-content{
-	width: 80%;
-	margin: 0 auto;
-	animation-name: start;
-	animation-duration: 2s;
-	display: flex;
-	justify-content: safe start;
-	
+.header-content-container{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		padding: 10% 0;
+}
+.header-txt-content{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: left;
+		background-image: url(../img/bckgrounds/262626.png);
+		
+		border-radius: 25px;
+		width: 60%;
+		padding: 2em;
+		margin-top: 2em ;
+		margin-bottom: 3em;
+		animation-name: start;
+		animation-duration: 2s;
 
 
 }
-.header-content img{
+
+.header-txt-content h2{
+
+	color: #EABE3F;
+	
+}
+
+.header-content{
 	width: 40%;
-	min-width: 15em;
-	margin: 0;
+	margin: 0 auto;
+	animation-name: start;
+	animation-duration: 2s;
+
+}
+.header-content img{
+ 	width: 80%;
+ 	min-width: 12em;
+ 	height: auto;
+ 	margin-top: 2em ;
+	margin-bottom: 3em;
+
 }
 
 @keyframes start{
@@ -274,8 +300,9 @@ main img{
  		background-repeat: no-repeat;
  		background-attachment: fixed;
  		background-position: center;
-  	background-size: cover;
-  	padding: 6%;
+
+
+
 }
 
 .headerimg-info{
@@ -471,13 +498,14 @@ main img{
 .Button {
 	background-color:transparent;
 	border-radius:50px;
-	border:1px solid #cccccc;
-
+	border: 1px solid white;
 	cursor:pointer;
-	color: #242424;
+	color: white;
 	font-size:17px;
 	padding:0.5em 1em;
 	text-decoration:none;
+	display: flex;
+	justify-content: safe center;
 
 }
 
@@ -547,7 +575,7 @@ main img{
 	border-radius: 25px;
 	padding: 2em;
 	width: 46%;
-	min-width: 40em%;
+	min-width: 40em;
 	margin: 1em;
 
 

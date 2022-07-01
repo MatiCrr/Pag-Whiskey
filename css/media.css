@@ -2,7 +2,23 @@
 
 @media only screen and (max-width: 1400px){
 
+.header-txt-content{
+ 	display: none;
+}
 
+.header-content{
+	width: 50%;
+
+
+}
+
+.header-content img{
+ 	width: 100%;
+ 	height: auto;
+ 	margin-top: 2em ;
+	margin-bottom: 3em;
+
+}
 
 .sabores{
 	display: flex;
@@ -57,21 +73,14 @@
 	
 
 }
+.header-content{
+	width: 70%;
 
+
+}
 .nav{
 	flex-direction: column;
 	padding-bottom: .5em;
-}
-
-
-
-.header-content{
-
-	justify-content: center;
-}
-.header-content img{
-	
-	
 }
 
 
@@ -96,7 +105,6 @@
 	
  	background-image: url(../img/wideph/all500.jpg);
  	background-position: start;
- 	padding: 25% 0;
  	background-size: cover;
 
 
@@ -106,9 +114,11 @@
 	width: 2em
 
 }
+
 .wid-main{
 	width: 85%;
 }
+
 main h1{
 	font-size: 1.5em;
 
@@ -136,19 +146,10 @@ main p{
 
 }
 
-.header-content img{
-	padding: 0;
-}
 
 .wideph-content{
 	padding: 2em;
 }
-.header-content{
-
-	padding: 1em;
-
-}
-
 
 
 .nav ul li a{
@@ -157,16 +158,20 @@ main p{
 		margin: .6em;
 
 }
+
 .nav ul li a{
 		font-size: 1em;
 
 }
+
 .footlogo{
 	width: 3em;
 }
+
 footer{
 	padding: 2em;
 }
+
 }
 
 
