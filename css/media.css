@@ -96,7 +96,7 @@
 	
  	background-image: url(../img/wideph/all500.jpg);
  	background-position: start;
-
+ 	padding: 25% 0;
  	background-size: cover;
 
 
@@ -106,25 +106,27 @@
 	width: 2em
 
 }
-
+.wid-main{
+	width: 85%;
+}
 main h1{
-	font-size: 2.0em;
+	font-size: 1.5em;
 
 
 }
 
 
 main h2{
-	font-size: 1.8em;
+	font-size: 1.2em;
 
 }
 main h3,h4{
-	font-size: 1.4em;
+	font-size: 1.2em;
 
 }
 
 main p{
-	font-size: 1.1em;
+	font-size: .9em;
 
 
 }
@@ -159,8 +161,12 @@ main p{
 		font-size: 1em;
 
 }
-
-
+.footlogo{
+	width: 3em;
+}
+footer{
+	padding: 2em;
+}
 }
 
 
