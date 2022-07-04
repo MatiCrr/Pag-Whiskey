@@ -104,9 +104,8 @@
 .headerimg{
 	
  	background-image: url(../img/wideph/all500.jpg);
- 	background-position: start;
- 	background-size: cover;
- 	background-position: scroll;
+ 	background-attachment: unset;
+ 
 
 
 }
@@ -147,6 +146,17 @@ main p{
 	width: 20px;
 
 }
+.header-content img{
+ 
+ }
+.header-content{
+	
+	display: flex;
+	align-self: center;
+	margin: 35% auto;
+}
+
+
 
 
 .wideph-content{
