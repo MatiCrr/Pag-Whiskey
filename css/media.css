@@ -95,6 +95,15 @@
 
 @media only screen and (max-width: 537px){
 
+.dos-img img{
+	min-width: 16em;
+	max-width: 19em;
+	margin: 1em ;
+}
+.dos-img{
+ 	margin: 0;
+ 	padding: 0;
+}
 .wideph-index{
 
 	background-image: url(../img/wideph/barrel537.jpg);
@@ -142,8 +151,8 @@ main p{
 
 }
 
-.dos-img img{
-	width: 20px;
+.img-fnd img{
+	width: 1em;
 
 }
 .header-content img{
@@ -157,7 +166,11 @@ main p{
 }
 
 
-
+.w-small{
+	width: 4em;
+	margin-bottom: .5em;
+	padding: 0;
+}
 
 .wideph-content{
 	padding: 2em;
