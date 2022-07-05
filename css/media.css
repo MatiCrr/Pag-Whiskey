@@ -69,10 +69,13 @@
 
 @media only screen and (max-width: 768px){
 
-.h-line{
-	
+.sabores{
+	border: 1px;
+	padding: 0;
 
+	margin: 1em 0;
 }
+
 .header-content{
 	width: 70%;
 
@@ -157,15 +160,13 @@ main p{
 }
 
 
-
 .sabores img{
 	min-width: 18em;
 
 
 }
-.header-content img{
- 
- }
+
+
 .header-content{
 	
 	display: flex;
