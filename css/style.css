@@ -449,6 +449,7 @@ main img{
 	max-width: 23em;
 	margin: 3em 7em;
 }
+
 .txt-c{
 	text-align: center;
 }
@@ -548,7 +549,6 @@ main img{
 
 .sabores img{
 	width: 60%;
-	margin-right: 1em;
 	margin: 0 1em;
 	box-shadow: 10px black;
 
