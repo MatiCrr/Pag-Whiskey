@@ -107,11 +107,11 @@
   display: block;
   position: absolute;
   left: 10%;
-  bottom: 40px;
+  bottom: 3%;
   margin: 0 auto;
   height: auto;
   max-width: 3em;
-  animation-name: start2;
+  animation-name: start;
   animation-duration: 2s ;
 }
 
@@ -121,7 +121,8 @@
 
 .header-content-container{
 		padding: 0 0;
-		min-height: 95vh;
+		min-height: 92vh;
+		flex-direction: column;
 }
 
 .dos-img img{
@@ -197,7 +198,8 @@ main p{
 	
 	display: flex;
 	align-self: center;
-	width: 85%
+	width: 85%;
+	margin: auto 0;
 }
 
 
