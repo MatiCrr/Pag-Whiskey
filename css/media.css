@@ -196,12 +196,8 @@ main p{
 
 .header-content{
 	
-	vertical-align: middle;
-    position:absolute;
-    top: 50%;
- 	left: 50%;
-  	transform: translate(-50%, -50%);
-   	margin: auto;
+	width: 80%;
+   	margin: 2em auto;
 
 }
 
