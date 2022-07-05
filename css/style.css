@@ -140,7 +140,7 @@ p{
 }
 .map{
 	border-radius: 20px;
-	saturation: -100
+
 }
 
 .wideph{
@@ -226,6 +226,15 @@ p{
 
 
 
+@keyframes start2{
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}
 
 
 
@@ -310,14 +319,14 @@ main img{
  		background: url(../img/wideph/scotland.jpg);
  		background-repeat: no-repeat;
  		background-attachment: fixed;
-  		padding: 15%;
+  	padding: 15%;
 }
 
 .headerimg-prod{
  		background: url(../img/wideph/barrel.jpg);
  		background-repeat: no-repeat;
  		background-attachment: fixed;
-  		padding: 15%;
+  	padding: 15%;
 }
 
 
