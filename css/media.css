@@ -100,28 +100,44 @@
 
 @media only screen and (max-width: 537px){
 
-
-
-
-.demo img {
-  display: block;
-  position: absolute;
-  left: 2em;
-  bottom: 1em;
-  margin: 0 auto;
-  height: auto;
-  max-width: 3em;
+.demo{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+  
+  width: 100%; 
+  bottom: 5em;
+  
+ 	position: relative;
   animation-name: start;
   animation-duration: 2s ;
 }
 
-.deo a:hover {
+
+.demo img {
+  width: 3em;
+  margin: auto;
+
+}
+
+.demo a:active {
   opacity: .5;
 }
 
+
+.demo p{
+  	font-family: 'Oswald', sans-serif;
+  	font-weight: 200;
+  	font-size: 1.5em;	
+ 
+}
+
+
 .header-content-container{
 		padding: 0 0;
-		min-height: 92vh;
+		min-height: 80vh;
 		flex-direction: column;
 }
 
@@ -147,6 +163,10 @@
  
 
 
+}
+.wideph-nov{
+
+	background-image: url(../img/wideph/latam.jpg);
 }
 
 .logo{
