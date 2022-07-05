@@ -106,9 +106,9 @@
   justify-items: center;
   flex-direction: column;
   align-items: center;
-  padding-top: 2em;
+
   width: 100%; 
-  bottom: 2em;
+  bottom: 10em;
   position: relative;
   animation-name: start;
   animation-duration: 2s ;
@@ -136,7 +136,7 @@
 
 .header-content-container{
 		padding: 0 0;
-		height: 75vh;
+		height: 80vh;
 		flex-direction: column;
 }
 
