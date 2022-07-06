@@ -21,9 +21,8 @@ body img{
 }
 
 .containerindex{
-	background-color: #0f0f0f;
 	margin: auto;
-
+	background-color: #040404;
 
 }
 
@@ -138,6 +137,9 @@ p{
 .bg-0f{
 	background-color: #0f0f0f;
 }
+.bg-05{
+	background-color: #050505;
+}
 .map{
 	border-radius: 20px;
 
@@ -221,6 +223,10 @@ p{
 
 .border-top1{
 	border-top: 1px solid #303030;
+}
+
+.bg-04{
+	background-color: #040404 ;
 }
 /*-----Ends CONIFG-----*/
 
@@ -740,7 +746,8 @@ background-color: #cccccc;
 
 footer{
 	border-top: 1px solid #262626;
-	background-color: #0f0f0f;
+
+	background-color: #040404;
  	padding: 2% 10%;
  	display: flex;
  	align-items: center;
