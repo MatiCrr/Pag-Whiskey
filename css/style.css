@@ -256,13 +256,16 @@ p{
 		flex-direction: column;
 		justify-content: center;
 		text-align: left;
-		background-image: url(../img/bckgrounds/262626.png);
 		
+		background-image: url(../img/bckgrounds/262626.png);
+		border: 1px solid	#262626;
 		border-radius: 25px;
 		width: 60%;
-		padding: 2em;
+		padding: 2em 3.5em;
+		
 		margin-top: 2em ;
 		margin-bottom: 3em;
+		
 		animation-name: start;
 		animation-duration: 2s;
 
@@ -332,6 +335,24 @@ main img{
   	padding: 15%;
 }
 
+.Button {
+	background-color:transparent;
+	border-radius:50px;
+	border: 1px solid #262626;
+	cursor:pointer;
+	color: white;
+	font-size:17px;
+	padding:0.5em 1em;
+	text-decoration:none;
+	display: flex;
+	justify-content: safe center;
+
+}
+
+.Button:hover{
+	color: #EABE3F;
+	border: 1px solid;
+}
 
 
 
@@ -509,24 +530,6 @@ main img{
 	border-radius: 0px 20px 20px 20px ;
 }
 
-.Button {
-	background-color:transparent;
-	border-radius:50px;
-	border: 1px solid white;
-	cursor:pointer;
-	color: white;
-	font-size:17px;
-	padding:0.5em 1em;
-	text-decoration:none;
-	display: flex;
-	justify-content: safe center;
-
-}
-
-.Button:hover{
-	color: #ffda00;
-	border: 1px solid;
-}
 
 
 
