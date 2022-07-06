@@ -102,18 +102,27 @@
 
 .demo{
   display: flex;
-  justify-content: center;
-  justify-items: center;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
 
-  width: 100%; 
-  bottom: 10em;
-  position: relative;
+
   animation-name: start;
   animation-duration: 2s ;
-}
 
+}
+.header-content{
+	padding-top: 4em;
+	width: 80%;
+
+
+}
+.header-content-container{
+		display: flex;
+		flex-direction: column;
+		justify-items: space-between;
+		padding: 0;
+
+}
 
 .demo img {
   width: 3em;
@@ -132,13 +141,11 @@
   	font-size: 1.5em;	
  
 }
-
-
-.header-content-container{
-		padding: 0 0;
-		height: 80vh;
-		flex-direction: column;
+.header-complete{
+	height: 100vh
 }
+
+
 
 .dos-img img{
 	min-width: 16em;
@@ -213,12 +220,6 @@ main p{
 }
 
 
-.header-content{
-	
-	width: 80%;
-   	margin: 2em auto;
-
-}
 
 
 
