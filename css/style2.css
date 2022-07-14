@@ -1,9 +1,9 @@
 
 /*-----Comienza CONFIG-----*/
 
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
-
 
 
 *{
@@ -143,10 +143,7 @@ p{
 .bg-05{
 	background-color: #050505;
 }
-.map{
-	border-radius: 20px;
 
-}
 
 .wideph-nov{
 
@@ -184,7 +181,7 @@ p{
 
 }
 
-.wideph-content{
+/* .wideph-content{
 	border: 0.5px solid #efb810;
 	border-radius: 25px;
 	padding: 3em;
@@ -198,7 +195,7 @@ p{
 
 .wideph-content p{
 	color: white;
-}
+} */
 
 .border-fine{
 	border: 0.5px solid #cccccc;
@@ -212,12 +209,7 @@ p{
 
 }
 
-.h-y-line{
-	border-bottom: 1px solid #efb810;
-	padding-bottom: 2px;
-	margin-bottom: 10px;
-	width: fit-content;
-}
+
 /*.white-txt h3{
 	border-bottom: 1px solid #262626;
 	
@@ -254,13 +246,13 @@ p{
 
 
 /*-----Comienza HEADER-----*/
-.header-content-container{
+/* .header-content-container{
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
 		padding: 10% 0;
-}
-.header-txt-content{
+} */
+/* .header-txt-content{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -279,9 +271,9 @@ p{
 		animation-duration: 2s;
 
 
-}
+} */
 
-.header-txt-content h2{
+/* .header-txt-content h2{
 
 	color: #EABE3F;
 	
@@ -293,15 +285,15 @@ p{
 	animation-name: start;
 	animation-duration: 2s;
 
-}
-.header-content img{
+} */
+/* .header-content img{
  	width: 80%;
  	min-width: 12em;
  	height: auto;
  	margin-top: 2em ;
 	margin-bottom: 3em;
 
-}
+} */
 
 @keyframes start{
 	0%{
@@ -320,7 +312,7 @@ main img{
 }
 
 
-.headerimg{
+/* .headerimg{
  		background: url(../img/wideph/all5.jpg);
  		background-repeat: no-repeat;
  		background-attachment: fixed;
@@ -328,7 +320,7 @@ main img{
 
 
 
-}
+} */
 
 .headerimg-info{
  		background: url(../img/wideph/scotland.jpg);
@@ -376,40 +368,12 @@ main img{
 
 /*-----Comienza NAV-----*/
 
-/*.nav{
-	display: flex;	
-	align-items: center;
-	justify-content: space-between;
-	background: #0f0f0f;
-	padding: 0.5em 10%;
-
-
-}
-
-.nav ul{
-	list-style: none;
-	display: flex;
-	justify-content: center;
-}
-
-.nav ul li a{
-		font-size: 0.9em;
-		font-weight: 400;
-		text-decoration: none;
-		color: white;
-		font-family: Roboto, sans-serif;
-		margin: 10px;
-
-}
-
-.nav ul li a:hover{
-	color: #ffc800;
-}
 
 
 
 
-*/
+
+
 .container-fluid{
 	display: flex;
 	justify-content: space-between;

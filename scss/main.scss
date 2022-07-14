@@ -1,0 +1,82 @@
+//import
+    
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;800;900&display=swap');
+
+
+@import "_vars";
+@import "_fonts";
+@import "_mixins";
+@import "_header";
+@import "_navBar";
+@import "_config";
+@import "_footer";
+
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.containerindex{
+	margin: auto;
+	background-color: $bg-big-color;
+
+}
+
+
+
+body{
+    
+    img{
+        width: 100%;
+        height:auto;  
+    }
+
+    h1{
+        font-size: $font-xl;
+        color: $color-titulo;
+        font-family: $font-h1;
+       
+    
+    }
+
+    h2{
+        font-size: $font-xl;
+        font-family: $font-h2;
+        color: $color-h2;
+        margin-top: .5em;
+        margin-bottom: .2em;
+    }
+    
+    h3{
+        font-size: 1.8em;
+        font-family: 'Oswald', sans-serif;
+        color: $color-h3;
+        font-weight: 700;
+        margin-top: .5em;
+        margin-bottom: .3em;
+    }
+
+    h4{
+        font-size: 1.8em;
+        font-family: 'Raleway', sans-serif;
+        color: $color-dorado;
+        font-weight: 700;
+        margin-top: .5em;
+        
+    }
+
+    p{
+        font-size: $font-s;
+        font-family: $font-p;
+        margin: 0.6em 0;
+        color: $color-texto; 
+    }
+    
+}
+

@@ -34,7 +34,7 @@
 	border-radius: 25px;
 	padding: 2em;
 	width: 100%;
-	min-width: 40em;
+	min-width: 40em%;
 	margin-bottom: 1em;
 	margin-right: 0;
 	margin-left: 0;
@@ -47,7 +47,9 @@
 
 }
 
-
+.border-1{
+	border: 0px;
+}
 }
 
 
@@ -57,95 +59,21 @@
 
 
 
-@media only screen and (max-width: 1200px){
+
+@media only screen and (max-width: 1455px){
 
 .line{
 	display: none;
 }
 
-
-
-
-		
-	
-.dos-img img{
-	width: 70%;
-	margin: 2em; 
-    }
-    
-}
-
-
-@media only screen and (max-width: 1000px){
-
-.productos1{
-	flex-direction: column;
-	padding: .5em;
-
 }
 
 
 
-.productos1 .img-card img{
-	
-	width: 17em;
-}
-.productos1 .txt-card img{
-	min-width: 13em;
-	width: 60%;
-	align-self: center;
-}
-
-.productos1 .txt-card{
-	
-	width: 100%;
-}
-
-.productos1 .img-card {
-	border-right: 0px solid black;
-	width: 100%;
-}
-
-
-
-
-.div-3-btom{
-	
-		margin-top: 2em;
-		width: 83%;
-		flex-direction: column;
-	
-}
-
-.div-3-btom div{
-	
-		
-		
-	margin: .4em 0;
-	width: 100%;
-	height: 40vh;
-	border-radius: 10px 10px 10px 10px;
-}
-
-
-
-.dos-img{
-	
-    flex-direction: column;
-
-    
-}
-.dos-img img{
-	width: 50%;
-	margin: 1.5em 4em; 
-    }
-}
 
 
 @media only screen and (max-width: 768px){
-.arrow-down{
-		display: none;
-}
+
 .sabores{
 	border: 1px;
 	padding: 0;
@@ -159,68 +87,12 @@
 
 }
 
-.headerbb{
-    width: 60%;
-    flex-direction: column;
-	justify-content: center;
 
-    
-}
-.header-txt2{
-	display: none;
 
-}	
-
-.header-txt-c{
-	display: block;
-
-}
-.headerbb .header-txt-c{
-	max-width: 80%;
-	margin-top: 2em;
-	margin-left: 0;
-	margin-bottom: 1em;
-   
-
-}
-.headerbb .header-logo{
-	max-width: 80%;
-	height: fit-content;
-	margin-bottom: 0em;
-   
- }
- .demo{
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	margin-top: 1em;
-  
-	animation-name: start;
-	animation-duration: 2s ;
-  
-	
-  }
-  .demo img {
-	max-width: 2.5em;
-	margin: auto;
-  
-  }
-  
-  .demo a:active {
-	opacity: .5;
-  }
-  
-  
-  .demo p{
-		font-family: 'Oswald', sans-serif;
-		font-weight: 200;
-		font-size: 1.2em;	
-   
-  }
 
 .dos-img img{
-	
-	
+	min-width: 20em;
+	max-width: 23em;
 	margin: 2em;
 	padding: 0;
 }
@@ -228,20 +100,11 @@
 
 @media only screen and (max-width: 537px){
 
-.headerbb{
-		padding-top: 30%;
-		flex-direction: column;
-		justify-content: start;
-		width: 80%;
-	
-		
-}		
-
 .demo{
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 1em;
+
 
   animation-name: start;
   animation-duration: 2s ;
@@ -262,7 +125,7 @@
 }
 
 .demo img {
-  max-width: 3em;
+  width: 3em;
   margin: auto;
 
 }
@@ -281,27 +144,27 @@
 .header-complete{
 	height: 100vh
 }
-.fnd-circulo{
-	width: 100%;
-}
+
+
 
 .dos-img img{
-	width: 80%;
-	margin: 1.5em;
-    
+	min-width: 16em;
+	max-width: 19em;
+	margin: 1em ;
 }
-
-
-
 .dos-img{
  	margin: 0;
  	padding: 0;
 }
+.wideph-index{
 
+	background-image: url(../img/wideph/barrel537.jpg);
+	
 
+}
 .headerimg{
 	
- 	
+ 	background-image: url(../img/wideph/all50.jpg);
  	background-attachment: unset;
  
 
@@ -333,12 +196,7 @@ main h2{
 	font-size: 1.2em;
 
 }
-main h3{
-	font-size: 1.2em;
-
-}
-
-main h4{
+main h3,h4{
 	font-size: 1.2em;
 
 }
@@ -355,11 +213,11 @@ main p{
 }
 
 
-/* .sabores img{
+.sabores img{
 	min-width: 18em;
 
 
-} */
+}
 
 
 
@@ -395,7 +253,6 @@ main p{
 footer{
 	padding: 2em;
 }
-
 
 }
 

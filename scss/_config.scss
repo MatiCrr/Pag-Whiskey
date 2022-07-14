@@ -1,0 +1,427 @@
+@keyframes start{
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+	0%{
+		opacity: 0;
+	}
+}
+
+.border-1{
+    
+	@include m-border-1();
+
+}
+
+.wid-main{
+    width: $wid-main;
+    margin: $margin-auto;
+}
+
+
+.map{
+	border-radius:  $border-radius;
+	margin-bottom: 3em;
+
+}
+
+.bg-1{
+	background-color: $bg-1;
+}
+
+.border-both{
+	@include m-border-both;
+}
+.main-txt{
+	padding: 3em 0;
+	h3{
+		width: $wid-main;
+		margin: 0 auto;
+		padding: .3em 0;
+	}
+	h2{
+		width: $wid-main;
+		margin: 0 auto;
+		
+	}
+	h1{
+		width: $wid-main;
+		margin: 0 auto;
+	}
+	p{
+		width: $wid-main;
+		margin: 0 auto;
+	}
+	.map{
+		width: $wid-main;
+		
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+.border-top1{
+	border-top: 1px solid #303030;
+}
+
+.wideph-nov{
+    @include m-wideph();
+}
+
+.wideph-index{
+	@include m-wideph;
+	
+}
+
+.wideph-content{
+    @include m-wideph-content;
+}
+
+.h-y-line{
+	border-bottom: 1px solid $color-dorado;
+	padding-bottom: 2px;
+	margin-bottom: 10px;
+	width: fit-content;
+}
+
+.txt-c{
+	text-align: center;
+}
+.prod-underline{
+	border-top: 1px solid #262626;
+	margin: .5em 0;
+	width: 100%;
+}
+.underline{
+	border-top: 1px solid #262626 ;
+	width:	$wid-main;
+	margin: 1em auto; 
+}
+.underline-h3-large{
+	border-top: 1px solid #262626 ;
+	width:	$wid-main;
+	margin: .5em auto; 
+	
+}
+.underline-h3-short{
+	border-top: 1px solid #262626 ;
+	width:	50%;
+	
+	margin: .5em auto; 
+}
+
+.line{
+	height: 26vw;
+	
+	min-width: 1px;
+	background-color: #262626;
+	margin: 2em;
+}
+
+.fnd-circulo{
+	background-image: url(../img/prod/bck2.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.dos-img{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+    
+		
+	
+    img{
+        width: 50%;
+        margin: 2em 4em;
+        &:hover{
+            transform: scale(1.1);
+            transition: 1s;
+            cursor: pointer;
+        }
+    }
+    
+}
+
+.w-small{
+	width: 4.5em;
+	margin: .5 auto;
+	margin-top: 1em;
+}
+
+.bg-07{
+	background-color: #070707;
+
+}
+
+
+.productos1{
+	width: $wid-main;
+	margin: auto;
+	display: flex;
+	margin-bottom: 2em;
+	.img-card{
+		img{
+			width: 100%;
+			
+		}
+		width: 30%;
+		height: auto;
+		border-right: 1px solid #262626;
+		display: flex;
+		justify-content: center;
+	}
+	.txt-card{
+		display: flex;
+		flex-direction: column;
+		width: 70%;
+		padding: 2em;
+		img{
+			
+			width: 50%;
+		}
+	}
+
+}
+
+
+
+
+
+/*-----Comienza Tienda-----*/
+
+// .galeria{
+// 	display: flex;
+
+// }
+
+
+// .producto{
+// 	width: 30%;
+// 	border-radius: $border-radius;
+// 	margin: 0 1em;
+// 	padding: 1em;
+//     img{
+//         border-radius: 30px 30px 0 0 ;
+//     }
+// }
+
+
+
+// .prod-style{
+// 	padding: 1em;
+// 	background-color: #cccccc;
+// 	border-radius: 0 0 30px 30px;
+// }
+
+
+
+
+// .box-prod{
+// 	background-image: url(../img/bckgrounds/bg2.jpg);
+// 	background-repeat: no-repeat;
+// 	background-size: cover;
+// 	border-radius: 25px;
+// 	width: 100%;
+// 	display: flex;
+// 	justify-content: center;
+// 	margin-bottom: 1em;
+// }
+
+.arrow-down{
+	width: 6em;
+	position: absolute;
+	top: 90%;
+	left: 45%;
+	animation: start 2s;
+	cursor: pointer;
+	
+}
+// .sabores{
+// 	display: flex;
+// 	align-items: center;
+// 	justify-content: center;
+// 	flex-wrap: wrap;
+// 	border-radius: $border-radius;
+// 	padding: 2em;
+// 	width: 46%;
+//     margin: 1em;
+
+//     img{
+//         width: 60%;
+//         margin: 0 1em;
+//         box-shadow: 10px black;
+//     }
+//     p{
+//         border-top: 1px solid $color-dorado;
+//         padding-top: 0.8em;
+//     }
+//     h3{
+//         font-size: $font-l;
+//     }
+// }
+
+
+// .producto{
+// 	width: 30%;
+// 	border: px solid;
+// 	border-radius: 30px;
+// 	margin: 0 1em;
+// 	padding: 1em;
+//     img{
+//         border-radius: 30px 30px 0 0 ;
+//     }
+// }
+
+// .sabores-cont{
+// 	display: flex;
+// 	flex-wrap: wrap;
+// 	justify-content: center;
+// 	width: $wid-main;
+// 	margin:  1em auto;
+    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----Ends Tienda-----*/
+
+.img-wide{
+	
+	padding: 4em 0px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../img/wideph/all500.jpg);
+	
+
+	
+}
+.pd-3em{
+	padding: 3em;
+}
+
+
+.div-3-btom{
+	padding-bottom: 2em;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	
+	div:first-child{
+		background-image: url(../img/wideph/bar.jpg);
+		
+		}
+	div:nth-child(2){
+		background-image: url(../img/wideph/glass1.jpg);
+		}
+	div:last-child{
+			background-image: url(../img/wideph/latam.jpg);
+			}
+
+	div{
+		width: 33%;
+		height: 70vh;
+		display: flex;
+		justify-content: center;
+		padding: 0em 2em;
+		align-items: center;
+		flex-direction: column;
+		border-radius: 10px 10px 10px 10px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		margin: 1em 0;
+		border: 0.5px solid #262626;
+		
+		
+
+		&:hover{
+			animation-name: border;
+			animation-duration: .4s;
+			animation-fill-mode: forwards;
+		
+		}
+	
+		h3, p{
+		text-align: center;
+		padding: 0em;
+		}
+
+		h3{
+			color: $color-dorado;
+		}
+		a{
+			margin: 1em;
+			@include m-button; 
+			
+		}
+	
+	
+	}
+}
+
+@keyframes start1{
+	0%{
+		background-size: 100%;
+	}
+	100%{
+		background-size: 120%;
+	}
+	
+}
+
+@keyframes border{
+	0%{
+		border: 0 px solid $color-dorado;
+	}
+	100%{
+		border: 1px solid $color-dorado;
+		
+	}
+	
+}
+
+
+@keyframes button{
+	0%{
+		
+		border: 0 px solid $color-dorado;
+		color: $color-dorado;
+	}
+	100%{
+		border: 1px solid $color-dorado;
+		color: $color-dorado;
+	}
+	
+}
+
+@keyframes infinite{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
