@@ -69,7 +69,7 @@
 		
 	
 .dos-img img{
-	width: 70%;
+	width: 50%;
 	margin: 2em; 
     }
     
@@ -88,7 +88,7 @@
 
 .productos1 .img-card img{
 	
-	width: 17em;
+	max-width: 20%;
 }
 .productos1 .txt-card img{
 	min-width: 13em;
@@ -136,13 +136,15 @@
     
 }
 .dos-img img{
-	width: 50%;
+	width: 35%;
 	margin: 1.5em 4em; 
     }
 }
 
 
 @media only screen and (max-width: 768px){
+
+	
 .arrow-down{
 		display: none;
 }
@@ -228,6 +230,13 @@
 
 @media only screen and (max-width: 537px){
 
+.productos1 .img-card img{
+	
+		
+		min-width: 50%;
+	}
+
+
 .headerbb{
 		padding-top: 30%;
 		flex-direction: column;
@@ -286,7 +295,7 @@
 }
 
 .dos-img img{
-	width: 80%;
+	width: 50%;
 	margin: 1.5em;
     
 }

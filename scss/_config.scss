@@ -138,7 +138,7 @@
 		
 	
     img{
-        width: 50%;
+        width: 35%;
         margin: 2em 4em;
         &:hover{
             transform: scale(1.1);
@@ -166,25 +166,35 @@
 	margin: auto;
 	display: flex;
 	margin-bottom: 2em;
+	
+	
 	.img-card{
+		
+		display: flex;
+
 		img{
-			width: 100%;
+			min-width: 14em;
+			width: 55% ;
+			margin: auto;
+			
 			
 		}
+
 		width: 30%;
-		height: auto;
 		border-right: 1px solid #262626;
-		display: flex;
-		justify-content: center;
+		
+		
+		
 	}
 	.txt-card{
 		display: flex;
 		flex-direction: column;
 		width: 70%;
 		padding: 2em;
+		
 		img{
 			
-			width: 50%;
+			width: 37%;
 		}
 	}
 
@@ -239,7 +249,8 @@
 	position: absolute;
 	top: 90%;
 	left: 45%;
-	animation: start 2s;
+	animation: arrow 2s;
+	animation-iteration-count: infinite;
 	cursor: pointer;
 	
 }
@@ -411,17 +422,16 @@
 	
 }
 
-@keyframes infinite{
+@keyframes arrow{
 	0%{
-		opacity: 0;
+		opacity: .2;
 	}
-	100%{
+	50%{
 		opacity: 1;
 	}
-	0%{
-		opacity: 0;
-	}
 	100%{
-		opacity: 1;
+		opacity: .2;
 	}
+	
+	
 }
