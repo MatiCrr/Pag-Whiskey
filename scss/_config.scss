@@ -189,6 +189,7 @@
 	.txt-card{
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 		width: 70%;
 		padding: 2em;
 		
@@ -389,10 +390,11 @@
 
 @keyframes start1{
 	0%{
-		background-size: 100%;
+		opacity: 0;
+
 	}
 	100%{
-		background-size: 120%;
+		opacity: 1;
 	}
 	
 }
@@ -435,3 +437,75 @@
 	
 	
 }
+
+/*---Comienza FORM---*/
+
+fieldset {
+	border: 0;
+	font-size: 1.2em;
+	margin: 0.5em 0;
+	
+}
+
+input, textarea, select{
+font-size: 0.8em;
+background-color: #cccccc;
+}
+
+.contact-input{
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+}
+.contacto label{
+	color: white;
+
+}
+
+.contacto input{
+	color: white;
+
+}
+.contacto select, textarea{
+	
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  
+ 
+}
+
+.button-enviar{
+	width: 30%;
+	background-color: transparent;
+	padding: 12px; 
+	border: 1px solid #ccc; 
+	border-radius: 5px; 
+	margin-top: 6px;
+	cursor: pointer;
+}
+
+.button-reset{
+	width: 20%;
+	background-color: transparent;
+	padding: 12px; 
+	border: 1px solid #ccc; 
+	border-radius: 5px; 
+	margin-top: 6px;
+	cursor: pointer;
+	margin-right: 1em;
+}
+
+
+.cont-btn{
+	display: flex;
+	justify-content: flex-end;
+}
+
+/*---ENDS FORM---*/

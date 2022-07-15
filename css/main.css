@@ -33,35 +33,6 @@
   flex-wrap: wrap;
   padding: 10% 0; }
 
-.header-txt-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  background-image: url(../img/bckgrounds/262626.png);
-  border: 1px solid #262626;
-  border-radius: 25px;
-  width: 60%;
-  padding: 1em 3.5em;
-  margin-top: 2em;
-  margin-bottom: 3em;
-  animation-name: start;
-  animation-duration: 2s; }
-  .header-txt-content h2 {
-    color: #eabe3f; }
-
-.header-content {
-  width: 40%;
-  margin: 0 auto;
-  animation-name: start;
-  animation-duration: 2s; }
-  .header-content img {
-    width: 80%;
-    min-width: 12em;
-    height: auto;
-    margin-top: 2em;
-    margin-bottom: 3em; }
-
 .headerimg {
   background: url(../img/wideph/playa.jpg);
   background-repeat: no-repeat;
@@ -116,6 +87,30 @@
     animation-name: button;
     animation-duration: .4s;
     animation-fill-mode: forwards; }
+
+.header-sabores {
+  background-image: url(../img/wideph/prod-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; }
+
+.header-novedades {
+  background-image: url(../img/wideph/nov-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; }
+
+.header-info {
+  background-image: url(../img/wideph/info-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; }
+
+.header-contacto {
+  background-image: url(../img/wideph/contacto-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; }
 
 .container-fluid {
   display: flex;
@@ -302,6 +297,7 @@
   .productos1 .txt-card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 70%;
     padding: 2em; }
     .productos1 .txt-card img {
@@ -382,9 +378,9 @@
 
 @keyframes start1 {
   0% {
-    background-size: 100%; }
+    opacity: 0; }
   100% {
-    background-size: 120%; } }
+    opacity: 1; } }
 
 @keyframes border {
   0% {
@@ -408,6 +404,62 @@
   100% {
     opacity: .2; } }
 
+/*---Comienza FORM---*/
+fieldset {
+  border: 0;
+  font-size: 1.2em;
+  margin: 0.5em 0; }
+
+input, textarea, select {
+  font-size: 0.8em;
+  background-color: #cccccc; }
+
+.contact-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 6px;
+  margin-bottom: 16px; }
+
+.contacto label {
+  color: white; }
+
+.contacto input {
+  color: white; }
+
+.contacto select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 6px;
+  margin-bottom: 16px; }
+
+.button-enviar {
+  width: 30%;
+  background-color: transparent;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 6px;
+  cursor: pointer; }
+
+.button-reset {
+  width: 20%;
+  background-color: transparent;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 6px;
+  cursor: pointer;
+  margin-right: 1em; }
+
+.cont-btn {
+  display: flex;
+  justify-content: flex-end; }
+
+/*---ENDS FORM---*/
 footer {
   border-top: 1px solid #262626;
   background: linear-gradient(180deg, #060606 0%, #040404 100%);
