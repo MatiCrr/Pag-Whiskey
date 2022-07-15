@@ -36,3 +36,9 @@ $escala-grises:  map-merge(
     $escala-grises
    
 );
+
+%border-around{
+    border: 2px solid white;
+    border-radius: 25px;
+	padding: 1.5em;
+}
