@@ -24,3 +24,15 @@ $wid-main: 83%;
 $margin-auto: auto;
 
 $border-radius: 25px;
+
+$escala-grises:  map-merge(
+    (
+      "1": #EEF1F4,
+      "2": #B3B6B9,
+      "3": #9CA0A3,
+      "4": #7C7F82,
+      "5": #020202,
+    ),
+    $escala-grises
+   
+);
