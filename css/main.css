@@ -34,7 +34,7 @@
   padding: 10% 0; }
 
 .headerimg {
-  background: url(../img/wideph/playa.jpg);
+  background: url(../img/wideph/playa.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; }
@@ -89,25 +89,25 @@
     animation-fill-mode: forwards; }
 
 .header-sabores {
-  background-image: url(../img/wideph/prod-bg.jpg);
+  background-image: url(../img/wideph/prod-bg.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; }
 
 .header-novedades {
-  background-image: url(../img/wideph/nov-bg.jpg);
+  background-image: url(../img/wideph/nov-bg.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; }
 
 .header-info {
-  background-image: url(../img/wideph/info-bg.jpg);
+  background-image: url(../img/wideph/info-bg.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; }
 
 .header-contacto {
-  background-image: url(../img/wideph/contacto-bg.jpg);
+  background-image: url(../img/wideph/contacto-bg.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; }
@@ -303,7 +303,6 @@
     .productos1 .txt-card img {
       width: 37%; }
 
-/*-----Comienza Tienda-----*/
 .arrow-down {
   width: 6em;
   position: absolute;
@@ -313,7 +312,6 @@
   animation-iteration-count: infinite;
   cursor: pointer; }
 
-/*-----Ends Tienda-----*/
 .img-wide {
   padding: 4em 0px;
   background-attachment: fixed;
