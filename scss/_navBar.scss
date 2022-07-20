@@ -1,4 +1,6 @@
-
+.navbar{
+	width: $wid-main;
+}
 
 .container-fluid{
 	display: flex;
@@ -12,20 +14,23 @@
 }
 
 .logo {
-width: 2.5em;
+width: 3em;
 }
 .nav-item a{
-	color: white;
+	color: rgb(0, 0, 0);
 	font-size: 1.15em;
 		font-weight: 400;
 		text-decoration: none;
-		color: white;
+		
 		font-family: Roboto, sans-serif;
 		margin: 5px;
         &:hover{
 	    color: $color-dorado;
         }
 }
+
+
+
 .navbar-nav{
 	text-align: center;
 }

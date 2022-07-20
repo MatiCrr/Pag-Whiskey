@@ -1,41 +1,31 @@
 
 
-$color-titulo: #fff;
-$color-texto: #fff; 
+$color-titulo: rgb(27, 27, 27);
+$color-texto: rgb(27, 27, 27); 
 $color-dorado: #eabe3f;
-$color-border: #060606;
+$color-border: #bebebe;
 
-$color-h2: #fff;
-$color-h3: #cccccc;
+$color-h2: #262626;
+$color-h3: #262626;
 
 $font-xl: 2.2em;
 $font-l: 1.6em;
 $font-m: 1.4em;
 $font-s: 1.1em;
 
-$font-h1: 'Oswald', sans-serif;
+$font-h1: 'Roboto', sans-serif;
 $font-h2: 'Roboto', sans-serif;
 $font-p: 'Roboto', sans-serif;
 
-$bg-big-color: #070707;
+$bg-big-color: #f6f6f6;
 $bg-1: #050505;
 
-$wid-main: 83%;
+$wid-main: 70%;
 $margin-auto: auto;
 
-$border-radius: 25px;
+$border-radius: 10px;
 
-$escala-grises:  map-merge(
-    (
-      "1": #EEF1F4,
-      "2": #B3B6B9,
-      "3": #9CA0A3,
-      "4": #7C7F82,
-      "5": #020202,
-    ),
-    $escala-grises
-   
-);
+
 
 %border-around{
     border: 2px solid white;

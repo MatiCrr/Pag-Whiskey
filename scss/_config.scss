@@ -1,3 +1,268 @@
+.underline-1{
+	padding: .2em 0;
+	margin-bottom: .2em;
+	border-bottom: 1px solid $color-border;
+}
+
+.slider-h2{
+	
+	margin: auto;
+	.carousel-inner{
+		border-radius: $border-radius;
+		display: flex;
+
+		h5{
+			
+			color: white;
+			text-align: left
+		}
+		p{
+			color: white;
+			text-align: left
+		}
+		a{
+			@include m-button;
+			color: white;
+			font-size: 1.6em;
+			padding: .4em 1em;
+			&:hover{
+				color: $color-dorado;
+				border: 1px solid $color-dorado;
+			}
+		}
+	}
+}
+
+
+
+.dosimg-cont{
+	display: flex;
+	
+	margin: auto;
+	div:last-child{
+		width: 70%;
+		
+	}
+	a{
+		@include m-button;
+	}
+}
+
+.dos-img-center{
+	display: flex;
+	justify-content: center;
+	width: 30%;
+	
+	margin: auto;
+
+	.left{
+					
+		img{
+			width:90%;
+		}
+	}
+	
+}
+
+
+
+.cuadros{
+	display: flex;
+	
+	margin: auto;
+	border-radius: $border-radius;
+	
+
+	.cuadro1y2{
+		width: 50%;
+		
+		
+	}
+
+	.cuadro1{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding: 6em;
+		text-align: center;
+		margin-right: 1em;
+		margin-bottom: 1em;
+
+		
+		
+		border-radius: $border-radius;
+		
+		border: 1px solid $color-border;
+		
+		h5{
+			
+			
+			margin-bottom: 0;
+		}
+		p{
+			color: #262626;
+		}
+		a{
+				background-color: transparent;
+				border-radius:50px;
+				border: 1px solid $color-border;
+				width: fit-content;
+				cursor: pointer;
+				color: #262626;
+				font-size:17px;
+				padding:0.5em 3em;
+				text-decoration:none;
+				display: flex;
+				justify-content: right;
+		
+	
+		&:hover{
+			color: $color-dorado;
+			border: 1px solid $color-dorado;
+		}
+		}
+	}
+
+	.cuadro2{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding: 6em;
+		text-align: center;
+		margin-right: 1em;
+
+		
+		border: 1px solid $color-border;
+		border-radius: $border-radius;
+		
+		h5{
+			
+			
+			margin-bottom: 0;
+		}
+		p{
+			color: #262626;
+		}
+		a{
+			background-color: transparent;
+			border-radius:50px;
+			border: 1px solid $color-border;
+			width: fit-content;
+			cursor: pointer;
+			color: #262626;
+			font-size:17px;
+			padding:0.5em 3em;
+			text-decoration:none;
+			display: flex;
+			justify-content: right;
+	
+
+	&:hover{
+		color: $color-dorado;
+		border: 1px solid $color-dorado;
+	}
+		}
+	}
+	.cuadro3{
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding: 6em;
+		text-align: center;
+
+		
+		width: 50%;
+		border: 1px solid $color-border;
+		border-radius: $border-radius;
+		
+
+		h5{
+
+			margin-bottom: 0;
+		}
+		p{
+			color: #262626;
+		}
+		a{
+				background-color: transparent;
+				border-radius:50px;
+				border: 1px solid $color-border;
+				width: fit-content;
+				cursor: pointer;
+				color: #262626;
+				font-size:17px;
+				padding:0.5em 3em;
+				text-decoration:none;
+				display: flex;
+				justify-content: right;
+		
+	
+		&:hover{
+			color: $color-dorado;
+			border: 1px solid $color-dorado;
+		}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes start{
 	0%{
 		opacity: 0;
@@ -10,6 +275,35 @@
 		opacity: 0;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .border-1{
     
@@ -30,7 +324,7 @@
 
 .map{
 	border-radius:  $border-radius;
-	margin-bottom: 3em;
+	margin-bottom: 2em;
 
 }
 
@@ -42,7 +336,7 @@
 	@include m-border-both;
 }
 .main-txt{
-	padding: 3em 0;
+	padding: 2em 0;
 	h3{
 		width: $wid-main;
 		margin: 0 auto;
@@ -67,6 +361,10 @@
 		margin-right: auto;
 		margin-left: auto;
 	}
+}
+
+.spacer{
+	height: 4em;
 }
 
 .border-top1{
@@ -97,23 +395,23 @@
 	text-align: center;
 }
 .prod-underline{
-	border-top: 1px solid #262626;
+	border-top: 1px solid $color-border;
 	margin: .5em 0;
 	width: 100%;
 }
 .underline{
-	border-top: 1px solid #262626 ;
+	border-top: 1px solid $color-border ;
 	width:	$wid-main;
 	margin: 1em auto; 
 }
 .underline-h3-large{
-	border-top: 1px solid #262626 ;
+	border-top: 1px solid $color-border ;
 	width:	$wid-main;
 	margin: .5em auto; 
 	
 }
 .underline-h3-short{
-	border-top: 1px solid #262626 ;
+	border-top: 1px solid $color-border ;
 	width:	50%;
 	
 	margin: .5em auto; 
@@ -123,7 +421,7 @@
 	height: 26vw;
 	
 	min-width: 1px;
-	background-color: #262626;
+	background-color: $color-border;
 	margin: 2em;
 }
 
@@ -167,7 +465,7 @@
 
 
 .productos1{
-	width: $wid-main;
+	
 	margin: auto;
 	display: flex;
 	margin-bottom: 2em;
@@ -186,7 +484,7 @@
 		}
 
 		width: 30%;
-		border-right: 1px solid #262626;
+		border-right: 1px solid $color-border;
 		
 		
 		
@@ -211,7 +509,7 @@
 	width: 6em;
 	position: absolute;
 	top: 90%;
-	left: 45%;
+	left: 47.5%;
 	animation: arrow 2s;
 	animation-iteration-count: infinite;
 	cursor: pointer;
@@ -237,7 +535,8 @@
 
 
 .div-3-btom{
-	padding-bottom: 2em;
+	margin: auto;
+	
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
@@ -254,18 +553,18 @@
 			}
 
 	div{
-		width: 33%;
+		width: 32%;
 		height: 70vh;
 		display: flex;
 		justify-content: center;
 		padding: 0em 2em;
 		align-items: center;
 		flex-direction: column;
-		border-radius: 10px 10px 10px 10px;
+		border-radius: $border-radius;
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
-		margin: 1em 0;
+		margin: 1.6em 0;
 		border: 0.5px solid #262626;
 		
 		
@@ -333,13 +632,13 @@
 
 @keyframes arrow{
 	0%{
-		opacity: .2;
+		opacity: 0.05;
 	}
 	50%{
 		opacity: 1;
 	}
 	100%{
-		opacity: .2;
+		opacity: 0.05;
 	}
 	
 	
@@ -348,77 +647,45 @@
 /*---Comienza FORM---*/
 
 
-.contacto{
-	
-	@extend %border-around;
 
-	label{
-		color: white;
-	}
-	input{
-		color: white;
-	
-	}
-	select, textarea{
-	
-		width: 100%;
-		padding: 12px; 
-		border: 1px solid #ccc; 
-		border-radius: 5px; 
-		margin-top: 6px;
-		margin-bottom: 16px; 
-	 }
-	 
-}
+input[type=text], select, textarea {
+	width: 100%; 
+	padding: 12px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
 
-fieldset {
-	border: 0;
-	font-size: 1.2em;
-	margin: 0.5em 0;
-	
-}
+  mg-1{
+	margin-top: 1em;
+  }
 
-input, textarea, select{
-	font-size: 0.8em;
-	background-color: #cccccc;
-}
-
-.contact-input{
-  width: 100%;
-  padding: 12px; 
-  border: 1px solid #ccc; 
-  border-radius: 5px; 
-  margin-top: 6px;
-  margin-bottom: 16px; 
-}
-
-
-
-.button-enviar{
-	width: 30%;
-	background-color: transparent;
-	padding: 12px; 
-	border: 1px solid #ccc; 
-	border-radius: 5px; 
-	margin-top: 6px;
+  .boton-form {
+	background-color: $color-dorado;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
 	cursor: pointer;
-}
-
-.button-reset{
-	width: 20%;
-	background-color: transparent;
-	padding: 12px; 
-	border: 1px solid #ccc; 
-	border-radius: 5px; 
-	margin-top: 6px;
-	cursor: pointer;
-	margin-right: 1em;
-}
-
-
-.cont-btn{
-	display: flex;
-	justify-content: flex-end;
-}
+	&:hover {
+		background-color: $color-dorado;
+	  }
+  }
+  
+  
+  .container {
+	border-radius: $border-radius;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
 
 /*---ENDS FORM---*/
+
+.img-tittle{
+	margin-top: 1em;
+	margin-bottom: .2em;
+	width: 35%;
+}

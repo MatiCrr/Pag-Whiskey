@@ -21,14 +21,14 @@
 }
 
 @mixin m-headerimg{
-        background: url(../img/wideph/playa.webp);
+		background-image: url(../img/bckgrounds/gheaderrrrr.jpg);
  		background-repeat: no-repeat;
  		background-attachment: fixed;
  		background-position: center;
 }
 
 @mixin m-border-1{
-	border: 1px solid #262626;
+	border: 1px solid $color-border;
 	border-radius: 25px;
 	padding: 1em;
 	margin:  1em 7%;
@@ -43,10 +43,10 @@
 	
 		background-color: transparent;
 		border-radius:50px;
-		border: 1px solid #262626;
+		border: 1px solid $color-border;
 		width: fit-content;
 		cursor: pointer;
-		color: white;
+		color:$color-texto;
 		font-size:17px;
 		padding:0.5em 3em;
 		text-decoration:none;
@@ -55,10 +55,8 @@
 		
 	
 		&:hover{
-		  
-			animation-name: button;
-			animation-duration: .4s;
-			animation-fill-mode: forwards;
+			color: $color-dorado;
+			border: 1px solid $color-dorado;
 		}
 	
 }

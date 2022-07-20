@@ -1,36 +1,114 @@
+.header-index{
+    width: $wid-main;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 10%;
+    animation: start 2s;
+   
+                   
+    .txt-content{
+        width: 50%;
+        img{
+            width: 80%;
+        }
+        a{
+            margin-top: 2em;
+			@include m-button; 
+        }
+      
+       h1{
+        font-size: 5em;
+       
+       }
+    }
+   
+    .img-content{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+
+        img{
+            width: 70%;
+        }
+    }
+}
+
+
+
+
+
+
+.border-3{
+    display: flex;
+    max-height: 90%;
+    min-height: 60%;
+    border: $color-dorado 1px solid;
+    padding: 3em;
+    margin-top: 7%;
+    border-radius: $border-radius;
+    align-items: center;
+   
+    
+   
+}
+
+
+.header-in{
+    width: 80%;
+    align-content: center;
+    margin: 0 auto;
+   
+    
+    animation: start 2s;
+    height: 100%;
+                   
+    .txt-content2{
+        width: 50%;
+        img{
+            width: 100%;
+        }
+        a{
+            margin-top: 2em;
+			@include m-button; 
+        }
+      
+       h1{
+        font-size: 5em;
+       
+       }
+    }
+   
+    .img-content2{
+        width: 50%;
+        display: flex;
+        
+        justify-content: flex-end;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+
+
+
+
+
+.underline-header{
+    width: 95%;
+    height: 1px;
+    background-color: $color-dorado;
+}
+
+
 
 
 // NEW HEADER beibe
 
 .headerbb{
-    width: $wid-main;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    
-    
-    animation: start 2s;
-    
-    
-    div{
-        margin-bottom: 4em;
-    }
-    .header-logo{
-       width: 27em;
-       height: fit-content;
-      
-    }
-    
-    .header-txt2{
-        width: 47em;
-        height: fit-content;
-        margin-left: 4em;
-       
-       
-     }
-    
+    display: none;
 }
 
 .header-txt-c{
@@ -124,34 +202,22 @@
 
 
 .header-sabores{
-    background-image: url(../img/wideph/prod-bg.webp);
-    background-repeat: no-repeat;
- 	background-attachment: fixed;
- 	background-position: center;
+    @include m-headerimg
    
 }
 
 .header-novedades{
-    background-image: url(../img/wideph/nov-bg.webp);
-    background-repeat: no-repeat;
- 	background-attachment: fixed;
- 	background-position: center;
+    @include m-headerimg
    
 }
 
 .header-info{
-    background-image: url(../img/wideph/info-bg.webp);
-    background-repeat: no-repeat;
- 	background-attachment: fixed;
- 	background-position: center;
+    @include m-headerimg
    
 }
 
 .header-contacto{
-    background-image: url(../img/wideph/contacto-bg.webp);
-    background-repeat: no-repeat;
- 	background-attachment: fixed;
- 	background-position: center;
+    @include m-headerimg
    
 }
 
