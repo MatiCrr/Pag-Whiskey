@@ -34,7 +34,13 @@
     }
 }
 
-
+.titulo-header{
+    
+     font-family: 'Secular One', sans-serif;
+        font-size: 5em;
+        
+   
+}
 
 
 
@@ -134,9 +140,7 @@
 
 
 
-.headerimg{
-    @include m-headerimg;
-}
+
 
 .Button {
 	background-color:transparent;
@@ -200,6 +204,10 @@
     }
 }
 
+.headerimg{
+    @include m-headerimg;
+    background-image: url(../img/bckgrounds/prod.jpg);
+}
 
 .header-sabores{
     @include m-headerimg
@@ -212,7 +220,8 @@
 }
 
 .header-info{
-    @include m-headerimg
+    @include m-headerimg;
+    background-image: url(../img/bckgrounds/prod.jpg);
    
 }
 

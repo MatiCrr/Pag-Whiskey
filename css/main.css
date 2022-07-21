@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap");
 .header-index {
   width: 70%;
   display: flex;
@@ -38,6 +39,10 @@
     justify-content: flex-end; }
     .header-index .img-content img {
       width: 70%; }
+
+.titulo-header {
+  font-family: 'Secular One', sans-serif;
+  font-size: 5em; }
 
 .border-3 {
   display: flex;
@@ -104,12 +109,6 @@
   flex-wrap: wrap;
   padding: 10% 0; }
 
-.headerimg {
-  background-image: url(../img/bckgrounds/gheaderrrrr.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; }
-
 .Button {
   background-color: transparent;
   border-radius: 50px;
@@ -159,6 +158,13 @@
     animation-duration: .4s;
     animation-fill-mode: forwards; }
 
+.headerimg {
+  background-image: url(../img/bckgrounds/gheaderrrrr.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url(../img/bckgrounds/prod.jpg); }
+
 .header-sabores {
   background-image: url(../img/bckgrounds/gheaderrrrr.jpg);
   background-repeat: no-repeat;
@@ -175,7 +181,8 @@
   background-image: url(../img/bckgrounds/gheaderrrrr.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; }
+  background-position: center;
+  background-image: url(../img/bckgrounds/prod.jpg); }
 
 .header-contacto {
   background-image: url(../img/bckgrounds/gheaderrrrr.jpg);
@@ -222,7 +229,6 @@
 .slider-h2 {
   margin: auto; }
   .slider-h2 .carousel-inner {
-    border-radius: 10px;
     display: flex; }
     .slider-h2 .carousel-inner h5 {
       color: white;
@@ -243,7 +249,7 @@
       display: flex;
       justify-content: right;
       color: white;
-      font-size: 1.6em;
+      font-size: 1.1em;
       padding: .4em 1em; }
       .slider-h2 .carousel-inner a:hover {
         color: #eabe3f;
@@ -317,6 +323,9 @@
       .cuadros .cuadro1 a:hover {
         color: #eabe3f;
         border: 1px solid #eabe3f; }
+    .cuadros .cuadro1:hover {
+      animation: border .4s;
+      animation-fill-mode: forwards; }
   .cuadros .cuadro2 {
     display: flex;
     justify-content: center;
@@ -327,6 +336,9 @@
     margin-right: 1em;
     border: 1px solid #bebebe;
     border-radius: 10px; }
+    .cuadros .cuadro2:hover {
+      animation: border .4s;
+      animation-fill-mode: forwards; }
     .cuadros .cuadro2 h5 {
       margin-bottom: 0; }
     .cuadros .cuadro2 p {
@@ -356,6 +368,9 @@
     width: 50%;
     border: 1px solid #bebebe;
     border-radius: 10px; }
+    .cuadros .cuadro3:hover {
+      animation: border .4s;
+      animation-fill-mode: forwards; }
     .cuadros .cuadro3 h5 {
       margin-bottom: 0; }
     .cuadros .cuadro3 p {
@@ -409,7 +424,7 @@
   border-bottom: 1px solid #262626; }
 
 .main-txt {
-  padding: 2em 0; }
+  padding: 1em 0; }
   .main-txt h3 {
     width: 70%;
     margin: 0 auto;
@@ -620,8 +635,7 @@
     opacity: 1; } }
 
 @keyframes border {
-  0% {
-    border: 0 px solid #eabe3f; }
+  0% { }
   100% {
     border: 1px solid #eabe3f; } }
 
@@ -689,7 +703,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding-bottom: 3em;
-  background-image: url(../img/bckgrounds/gheaderrrrr.jpg);
+  background-image: url(../img/bckgrounds/footer.jpg);
   background-attachment: fixed; }
   footer .line-footer {
     background-color: #bebebe;

@@ -8,9 +8,11 @@
 	
 	margin: auto;
 	.carousel-inner{
-		border-radius: $border-radius;
+		
 		display: flex;
-
+		
+		
+		
 		h5{
 			
 			color: white;
@@ -23,14 +25,15 @@
 		a{
 			@include m-button;
 			color: white;
-			font-size: 1.6em;
+			font-size: 1.1em;
 			padding: .4em 1em;
 			&:hover{
 				color: $color-dorado;
 				border: 1px solid $color-dorado;
 			}
 		}
-	}
+		}
+	
 }
 
 
@@ -80,6 +83,7 @@
 	}
 
 	.cuadro1{
+		
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -88,11 +92,7 @@
 		text-align: center;
 		margin-right: 1em;
 		margin-bottom: 1em;
-
-		
-		
 		border-radius: $border-radius;
-		
 		border: 1px solid $color-border;
 		
 		h5{
@@ -122,6 +122,10 @@
 			border: 1px solid $color-dorado;
 		}
 		}
+		&:hover{
+			animation: border .4s;
+			animation-fill-mode: forwards;
+		}
 	}
 
 	.cuadro2{
@@ -136,6 +140,10 @@
 		
 		border: 1px solid $color-border;
 		border-radius: $border-radius;
+		&:hover{
+			animation: border .4s;
+			animation-fill-mode: forwards;
+		}
 		
 		h5{
 			
@@ -178,7 +186,10 @@
 		width: 50%;
 		border: 1px solid $color-border;
 		border-radius: $border-radius;
-		
+		&:hover{
+			animation: border .4s;
+			animation-fill-mode: forwards;
+		}
 
 		h5{
 
@@ -336,7 +347,7 @@
 	@include m-border-both;
 }
 .main-txt{
-	padding: 2em 0;
+	padding: 1em 0;
 	h3{
 		width: $wid-main;
 		margin: 0 auto;
@@ -607,10 +618,12 @@
 
 @keyframes border{
 	0%{
-		border: 0 px solid $color-dorado;
+		
 	}
 	100%{
+		
 		border: 1px solid $color-dorado;
+		
 		
 	}
 	
