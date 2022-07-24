@@ -251,6 +251,39 @@
 
 /*------------------------------------------NUEVO SABOR END */
 
+/*------------------------------------------RECETAS */
+
+.manhattan-img h3{
+	font-size: 3.3em;
+	background-size: ;
+	
+}
+.cafe-img h3{
+	font-size: 3em;
+	background-size: ;
+	
+}
+
+.collins-img h3{
+	font-size: 3.3em;
+	background-size: ;
+	
+}
+
+.mint-img h3{
+	font-size: 3.3em;
+	background-size: contain;
+}
+
+.manhattan-img, .cafe-img, .collins-img, .mint-img{
+	padding: 6em 0;
+}
+
+
+
+
+
+/*------------------------------------------RECETAS */
 
 }
 
@@ -260,13 +293,13 @@
 @media only screen and (max-width: 537px){
 	
 .wid-main{
-		width: 95%;
+		width: 92%;
 	}
 .main-txt h1{
-		width: 95%;
+		width: 92%;
 	}
 .main-txt p{
-		width: 95%;
+		width: 92%;
 	}
 
 main h1{

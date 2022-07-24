@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap");
 .header-index {
@@ -40,9 +40,13 @@
     .header-index .img-content img {
       width: 70%; }
 
-.titulo-header {
+.dorado-h2 {
+  color: #eabe3f; }
+
+.txt-content h2 {
   font-family: 'Secular One', sans-serif;
-  font-size: 5em; }
+  font-size: 5em;
+  margin: 0; }
 
 .border-3 {
   display: flex;
@@ -159,36 +163,39 @@
     animation-fill-mode: forwards; }
 
 .headerimg {
-  background-image: url(../img/bckgrounds/gheaderrrrr.jpg);
+  background-color: #eeeeee;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-image: url(../img/bckgrounds/prod.jpg); }
+  background-image: url(../img/bckgrounds/vg2.jpg); }
 
 .header-sabores {
-  background-image: url(../img/bckgrounds/gheaderrrrr.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; }
-
-.header-novedades {
-  background-image: url(../img/bckgrounds/gheaderrrrr.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; }
-
-.header-info {
-  background-image: url(../img/bckgrounds/gheaderrrrr.jpg);
+  background-color: #eeeeee;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-image: url(../img/bckgrounds/prod.jpg); }
+  background-image: url(../img/bckgrounds/vg.jpg); }
 
-.header-contacto {
-  background-image: url(../img/bckgrounds/gheaderrrrr.jpg);
+.header-novedades {
+  background-color: #eeeeee;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; }
+  background-position: center;
+  background-image: url(../img/bckgrounds/bg-barman.jpg); }
+
+.header-info {
+  background-color: #eeeeee;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url(../img/bckgrounds/bg-ice.jpg); }
+
+.header-contacto {
+  background-color: #eeeeee;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url(../img/bckgrounds/bg-envio.jpg); }
 
 .navbar {
   width: 70%; }
@@ -206,20 +213,132 @@
   width: 3em; }
 
 .nav-item a {
-  color: black;
+  color: #262626;
   font-size: 1.15em;
   font-weight: 400;
   text-decoration: none;
   font-family: Roboto, sans-serif;
   margin: 5px; }
   .nav-item a:hover {
-    color: #eabe3f; }
+    color: white; }
 
 .navbar-nav {
   text-align: center; }
 
 .navbar-toggler-icon {
   color: white; }
+
+.new-s {
+  display: flex;
+  justify-items: center;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  padding: 0em 4em;
+  outline: 1px solid #bebebe;
+  outline-offset: -8px; }
+  .new-s:hover {
+    outline: 1px solid #eabe3f; }
+  .new-s .txt-new {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .new-s .txt-new h4 {
+      font-size: 2.7em; }
+    .new-s .txt-new h6 {
+      font-size: 1.5em;
+      margin: 0; }
+    .new-s .txt-new a {
+      margin-top: .5em;
+      background-color: transparent;
+      border-radius: 50px;
+      border: 1px solid #bebebe;
+      width: fit-content;
+      cursor: pointer;
+      color: #1b1b1b;
+      font-size: 17px;
+      padding: 0.5em 3em;
+      text-decoration: none;
+      display: flex;
+      justify-content: right; }
+      .new-s .txt-new a:hover {
+        color: #eabe3f;
+        border: 1px solid #eabe3f; }
+  .new-s .img-new {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .new-s .img-new img {
+      z-index: 1; }
+
+.recetas-div {
+  display: flex;
+  justify-content: space-between; }
+
+.receta {
+  background-image: url(../img/wideph/latam.jpg);
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 800px;
+  width: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .receta:hover {
+    background-size: 120%; }
+  .receta a {
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #bebebe;
+    width: fit-content;
+    cursor: pointer;
+    color: #1b1b1b;
+    font-size: 17px;
+    padding: 0.5em 3em;
+    text-decoration: none;
+    display: flex;
+    justify-content: right; }
+    .receta a:hover {
+      color: #eabe3f;
+      border: 1px solid #eabe3f; }
+  .receta h3 {
+    color: white;
+    text-align: center;
+    font-size: 1.4em; }
+
+.manhattan-img, .cafe-img, .collins-img, .mint-img {
+  background-size: cover;
+  display: flex;
+  padding: 11em 0;
+  border-radius: 10px; }
+  .manhattan-img h3, .cafe-img h3, .collins-img h3, .mint-img h3 {
+    font-family: 'Raleway';
+    color: #f2f2f2;
+    font-size: 5em;
+    font-weight: 100;
+    margin: auto; }
+
+.manhattan-img {
+  background-image: url(../img/recetas/man2.jpg); }
+
+.collins-img {
+  background-image: url(../img/recetas/nor2.jpg); }
+
+.cafe-img {
+  background-image: url(../img/recetas/cof2.jpg); }
+
+.mint-img {
+  background-image: url(../img/recetas/mint.jpg); }
+
+.pd-1em {
+  padding: 1em; }
+
+.underline-dorado {
+  padding: .2em 0;
+  margin-bottom: .2em;
+  border-bottom: 1px solid #bebebe; }
 
 .underline-1 {
   padding: .2em 0;
@@ -230,6 +349,8 @@
   margin: auto; }
   .slider-h2 .carousel-inner {
     display: flex; }
+    .slider-h2 .carousel-inner h2 {
+      margin: 0; }
     .slider-h2 .carousel-inner h5 {
       color: white;
       text-align: left; }
@@ -391,6 +512,11 @@
         color: #eabe3f;
         border: 1px solid #eabe3f; }
 
+.rct-div {
+  height: 330px; }
+  .rct-div img {
+    width: 6em; }
+
 @keyframes start {
   0% {
     opacity: 0; }
@@ -406,7 +532,15 @@
   margin: 1em 7%; }
 
 .border-2 {
-  border: 1px solid black; }
+  border: 1px solid #bebebe;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px; }
+
+.border-0 {
+  border: 1px solid #bebebe;
+  margin: auto;
+  border-radius: 10px; }
 
 .wid-main {
   width: 70%;
@@ -787,7 +921,7 @@ body h4 {
 body h5 {
   font-size: 2em;
   font-family: 'Roboto', sans-serif;
-  color: #eabe3f; }
+  color: #262626; }
 
 body p {
   font-size: 1.1em;

@@ -8,6 +8,7 @@
    
                    
     .txt-content{
+        
         width: 50%;
         img{
             width: 80%;
@@ -34,12 +35,20 @@
     }
 }
 
-.titulo-header{
+.dorado-h2{
     
-     font-family: 'Secular One', sans-serif;
-        font-size: 5em;
+    color: $color-dorado;
+        
         
    
+}
+.txt-content{
+   
+    h2{
+        font-family: 'Secular One', sans-serif;
+        font-size: 5em;
+        margin: 0;
+    }
 }
 
 
@@ -206,27 +215,29 @@
 
 .headerimg{
     @include m-headerimg;
-    background-image: url(../img/bckgrounds/prod.jpg);
+    background-image: url(../img/bckgrounds/vg2.jpg);
 }
 
 .header-sabores{
     @include m-headerimg
+    background-image: url(../img/bckgrounds/vg.jpg);
    
 }
 
 .header-novedades{
     @include m-headerimg
-   
+    background-image: url(../img/bckgrounds/bg-barman.jpg);
 }
 
 .header-info{
     @include m-headerimg;
-    background-image: url(../img/bckgrounds/prod.jpg);
+    background-image: url(../img/bckgrounds/bg-ice.jpg);
    
 }
 
 .header-contacto{
     @include m-headerimg
+    background-image: url(../img/bckgrounds/bg-envio.jpg);
    
 }
 
