@@ -1,14 +1,14 @@
-.header-index{
+.header-index, .header-rest{
     width: $wid-main;
     display: flex;
     margin: 0 auto;
     align-items: center;
     margin-top: 10%;
-    animation: start 2s;
+    animation: start 3s;
    
                    
     .txt-content{
-        
+        animation: down-slide 2s;
         width: 50%;
         img{
             width: 80%;
@@ -33,6 +33,15 @@
             width: 70%;
         }
     }
+}
+
+.header-rest{
+    margin-top: 13%;
+}
+
+.slide-up{
+    animation: slide4 2s;
+    
 }
 
 .dorado-h2{
@@ -215,29 +224,40 @@
 
 .headerimg{
     @include m-headerimg;
-    background-image: url(../img/bckgrounds/vg2.jpg);
+    background-image: url(../img/bckgrounds/vg3.jpg);
+   
+ 
 }
 
 .header-sabores{
     @include m-headerimg
-    background-image: url(../img/bckgrounds/vg.jpg);
+    background-image: url(../img/bckgrounds/vg10.jpg);
    
 }
 
 .header-novedades{
     @include m-headerimg
-    background-image: url(../img/bckgrounds/bg-barman.jpg);
+    background-image: url(../img/bckgrounds/vg.jpg);
 }
 
 .header-info{
     @include m-headerimg;
-    background-image: url(../img/bckgrounds/bg-ice.jpg);
+    background-image: url(../img/bckgrounds/vg8.jpg);
+    
    
 }
 
 .header-contacto{
     @include m-headerimg
-    background-image: url(../img/bckgrounds/bg-envio.jpg);
+
+    background-image: url(../img/bckgrounds/vg9.jpg);
+   
+}
+
+.header-recetas{
+    @include m-headerimg
+
+    background-image: url(../img/bckgrounds/vg7.jpg);
    
 }
 

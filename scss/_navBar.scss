@@ -17,8 +17,8 @@
 width: 3em;
 }
 .nav-item a{
-	color: #262626;
-	font-size: 1.15em;
+	color: white;
+	font-size: 1em;
 		font-weight: 400;
 		text-decoration: none;
 		
@@ -37,4 +37,11 @@ width: 3em;
 
 .navbar-toggler-icon{
 	color: white;
+}
+
+.nav-bg{
+	background-image: url(../img/bckgrounds/nav-bg.png);
+	
+	border-radius: 40px;
+	padding: 0px 20px;
 }

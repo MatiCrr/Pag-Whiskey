@@ -24,7 +24,10 @@
 		background-color: #eeeeee;
  		background-repeat: no-repeat;
  		background-attachment: fixed;
- 		background-position: center;
+		 animation-name: slide;
+		 animation-duration: 2s;
+		
+		
 }
 
 @mixin m-border-1{

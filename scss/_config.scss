@@ -48,7 +48,79 @@
 
 
 
+@keyframes slide{
+	0%{
+		background-position-x: 1000px;
+		
+		
+	}
+	100%{
+		background-position-x: 0px;
+		
+	}
+}
 
+
+@keyframes slide2{
+	0%{
+		background-position-x: 1000px;
+		
+		
+	}
+	100%{
+		background-position-x: -220px;
+		
+	}
+}
+
+@keyframes slide3{
+	0%{
+		background-position-x: 1000px;
+		
+		
+	}
+	100%{
+		background-position-x: -400px;
+		
+	}
+}
+
+@keyframes slide34{
+	0%{
+		background-position-x: 1000px;
+		
+		
+	}
+	100%{
+		background-position-x: 0px;
+		
+	}
+}
+
+@keyframes slide-up{
+	0%{
+		background-position-y: 1000px;
+		
+		
+	}
+	100%{
+		background-position-y: 0px;
+		
+	}
+}
+
+
+
+@keyframes down-slide{
+	0% {
+	transform: translateY(-40%);
+	
+	}
+	100% {
+	transform: translateY(0);
+	
+	}
+} 
 
 
 
@@ -688,7 +760,7 @@
 }
 
 
-.arrow-down{
+.arrow-down, .arrow-down-b{
 	width: 6em;
 	position: absolute;
 	top: 90%;
@@ -699,6 +771,11 @@
 	
 }
 
+.arrow-down-b{
+	left: 20%;
+
+	
+}
 
 
 .img-wide{

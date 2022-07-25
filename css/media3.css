@@ -1,4 +1,47 @@
 
+@media only screen and (max-width: 1640px){
+
+	.header-info, .header-contacto, .header-sabores, .header-recetas, .headerimg{
+		background-position-x: -220px;
+		animation-name: slide2;
+	 	animation-duration: 2s;
+	}
+	
+
+}
+
+
+
+
+@media only screen and (max-width: 1400px){
+
+	.header-info, .header-contacto, .header-sabores, .header-recetas, .headerimg{
+		background-position-x: -400px;
+		animation-name: slide3;
+	 	animation-duration: 2s;
+	}
+	
+
+}
+
+
+
+
+@media only screen and (max-width: 1300px){
+	.header-info, .header-contacto, .header-sabores, .header-recetas{
+		animation: slide34 2s;
+		background-position-x: 0px;
+		background-position-y: 120px;
+		background-attachment: scroll;
+		background-size: contain;
+	}
+
+}
+
+
+
+
+
 @media only screen and (max-width: 1200px){
 
 
@@ -18,7 +61,9 @@
 .header-index{
 	width: 80%;
 }
-
+.header-rest{
+	width: 80%;
+}
 
 
 
@@ -92,12 +137,23 @@
 	.header-index{
 		display: none;
 	}
+	.header-rest{
+		display: none;
+	}
 	.arrow-down{
+		display: none;
+	}
+	.arrow-down-b{
 		display: none;
 	}	
 	.header-txt2{
 		display: none;
 	
+	}
+	.nav-bg{
+		background-image:none;
+		border-radius: 0px;
+		padding: 0px 0px;
 	}
 	.headerbb{
 		
@@ -166,7 +222,10 @@
 	
 	
 	/*-----------------------------------------------HEADER END */
-
+	.footer-nav ul{
+		flex-direction: column;
+		text-align: center;
+	}
 	/*-----------------------------------------------TIENDA START */
 
 	.border-1{
@@ -359,8 +418,5 @@ footer .redesdiv img{
 	}
 
 
-.footer-nav ul{
-	flex-direction: column;
-	text-align: center;
-}
+
 }
