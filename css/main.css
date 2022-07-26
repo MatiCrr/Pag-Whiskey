@@ -112,7 +112,8 @@
   display: none; }
 
 .header-complete {
-  min-height: 100vh; }
+  min-height: 100vh;
+  max-height: 150vh; }
 
 .header-content-container {
   display: flex;
@@ -175,6 +176,7 @@
   background-attachment: fixed;
   animation-name: slide;
   animation-duration: 2s;
+  background-position-x: right;
   background-image: url(../img/bckgrounds/vg3.jpg); }
 
 .header-sabores {
@@ -183,6 +185,7 @@
   background-attachment: fixed;
   animation-name: slide;
   animation-duration: 2s;
+  background-position-x: right;
   background-image: url(../img/bckgrounds/vg10.jpg); }
 
 .header-novedades {
@@ -191,6 +194,7 @@
   background-attachment: fixed;
   animation-name: slide;
   animation-duration: 2s;
+  background-position-x: right;
   background-image: url(../img/bckgrounds/vg.jpg); }
 
 .header-info {
@@ -199,6 +203,7 @@
   background-attachment: fixed;
   animation-name: slide;
   animation-duration: 2s;
+  background-position-x: right;
   background-image: url(../img/bckgrounds/vg8.jpg); }
 
 .header-contacto {
@@ -207,6 +212,7 @@
   background-attachment: fixed;
   animation-name: slide;
   animation-duration: 2s;
+  background-position-x: right;
   background-image: url(../img/bckgrounds/vg9.jpg); }
 
 .header-recetas {
@@ -215,6 +221,7 @@
   background-attachment: fixed;
   animation-name: slide;
   animation-duration: 2s;
+  background-position-x: right;
   background-image: url(../img/bckgrounds/vg7.jpg); }
 
 .navbar {
@@ -302,25 +309,25 @@
   0% {
     background-position-x: 1000px; }
   100% {
-    background-position-x: 0px; } }
+    background-position-x: right; } }
 
 @keyframes slide2 {
   0% {
     background-position-x: 1000px; }
   100% {
-    background-position-x: -220px; } }
+    background-position-x: right; } }
 
 @keyframes slide3 {
   0% {
     background-position-x: 1000px; }
   100% {
-    background-position-x: -400px; } }
+    background-position-x: right; } }
 
-@keyframes slide34 {
+@keyframes slide4 {
   0% {
-    background-position-y: 800px; }
+    background-position-x: 1000px; }
   100% {
-    background-position-y: bottom; } }
+    background-position-x: right; } }
 
 @keyframes down-slide {
   0% {
@@ -338,7 +345,13 @@
   0% {
     transform: scale(100%); }
   100% {
-    transform: scale(105%); } }
+    transform: scale(102%); } }
+
+@keyframes reverse {
+  0% {
+    transform: scale(105%); }
+  100% {
+    transform: scale(100%); } }
 
 @keyframes zoom-slide2 {
   0% {
@@ -501,12 +514,12 @@
   .recetas-cuadro .cuadro1, .recetas-cuadro .cuadro2, .recetas-cuadro .cuadro3, .recetas-cuadro .cuadro4 {
     display: flex;
     justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     flex-direction: column;
     padding: 7em 5em;
     text-align: left;
-    border-radius: 10px;
-    background-size: cover;
-    background-repeat: no-repeat; }
+    border-radius: 10px; }
     .recetas-cuadro .cuadro1:hover, .recetas-cuadro .cuadro2:hover, .recetas-cuadro .cuadro3:hover, .recetas-cuadro .cuadro4:hover {
       animation: zoom-slide2 1s;
       animation-fill-mode: forwards; }
@@ -536,7 +549,8 @@
     border-radius: 0px;
     margin: 0px;
     background-position-x: center;
-    background-position-y: 0px; }
+    background-position-y: 0px;
+    animation: reverse 1s; }
     .recetas-cuadro .cuadro3 h5, .recetas-cuadro .cuadro4 h5 {
       width: 100%; }
     .recetas-cuadro .cuadro3 p, .recetas-cuadro .cuadro4 p {
@@ -557,11 +571,12 @@
 
 .cuadros {
   display: flex;
+  justify-items: center;
   margin: auto;
   border-radius: 10px; }
   .cuadros .cuadro1y2 {
     width: 50%; }
-  .cuadros .cuadro1 {
+  .cuadros .cuadro1, .cuadros .cuadro2, .cuadros .cuadro3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -572,11 +587,11 @@
     margin-bottom: 1em;
     border-radius: 10px;
     border: 1px solid #bebebe; }
-    .cuadros .cuadro1 h5 {
+    .cuadros .cuadro1 h5, .cuadros .cuadro2 h5, .cuadros .cuadro3 h5 {
       margin-bottom: 0; }
-    .cuadros .cuadro1 p {
+    .cuadros .cuadro1 p, .cuadros .cuadro2 p, .cuadros .cuadro3 p {
       color: #262626; }
-    .cuadros .cuadro1 a {
+    .cuadros .cuadro1 a, .cuadros .cuadro2 a, .cuadros .cuadro3 a {
       background-color: transparent;
       border-radius: 50px;
       border: 1px solid #bebebe;
@@ -588,81 +603,58 @@
       text-decoration: none;
       display: flex;
       justify-content: right; }
-      .cuadros .cuadro1 a:hover {
+      .cuadros .cuadro1 a:hover, .cuadros .cuadro2 a:hover, .cuadros .cuadro3 a:hover {
         color: #eabe3f;
         border: 1px solid #eabe3f; }
-    .cuadros .cuadro1:hover {
+    .cuadros .cuadro1:hover, .cuadros .cuadro2:hover, .cuadros .cuadro3:hover {
       animation: border .4s;
       animation-fill-mode: forwards; }
   .cuadros .cuadro2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 6em;
-    text-align: center;
-    margin-right: 1em;
-    border: 1px solid #bebebe;
-    border-radius: 10px; }
-    .cuadros .cuadro2:hover {
-      animation: border .4s;
-      animation-fill-mode: forwards; }
-    .cuadros .cuadro2 h5 {
-      margin-bottom: 0; }
-    .cuadros .cuadro2 p {
-      color: #262626; }
-    .cuadros .cuadro2 a {
-      background-color: transparent;
-      border-radius: 50px;
-      border: 1px solid #bebebe;
-      width: fit-content;
-      cursor: pointer;
-      color: #262626;
-      font-size: 17px;
-      padding: 0.5em 3em;
-      text-decoration: none;
-      display: flex;
-      justify-content: right; }
-      .cuadros .cuadro2 a:hover {
-        color: #eabe3f;
-        border: 1px solid #eabe3f; }
+    margin-bottom: 0px; }
   .cuadros .cuadro3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 6em;
-    text-align: center;
-    width: 50%;
-    border: 1px solid #bebebe;
-    border-radius: 10px; }
-    .cuadros .cuadro3:hover {
-      animation: border .4s;
-      animation-fill-mode: forwards; }
-    .cuadros .cuadro3 h5 {
-      margin-bottom: 0; }
-    .cuadros .cuadro3 p {
-      color: #262626; }
-    .cuadros .cuadro3 a {
-      background-color: transparent;
-      border-radius: 50px;
-      border: 1px solid #bebebe;
-      width: fit-content;
-      cursor: pointer;
-      color: #262626;
-      font-size: 17px;
-      padding: 0.5em 3em;
-      text-decoration: none;
-      display: flex;
-      justify-content: right; }
-      .cuadros .cuadro3 a:hover {
-        color: #eabe3f;
-        border: 1px solid #eabe3f; }
+    margin-bottom: 0px;
+    width: 50%; }
 
-.rct-div {
-  height: 330px; }
-  .rct-div img {
-    width: 6em; }
+.rct-div img {
+  width: 6em; }
+
+.cuadros-rct .cuadro-1y2-rct {
+  display: flex;
+  justify-content: space-between; }
+
+.cuadros-rct .rct-div {
+  width: 49.5%;
+  display: flex;
+  margin-bottom: 1em;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 6em;
+  text-align: center;
+  border: 1px solid #bebebe;
+  border-radius: 10px; }
+  .cuadros-rct .rct-div:hover {
+    animation: border .4s;
+    animation-fill-mode: forwards; }
+  .cuadros-rct .rct-div h5 {
+    margin-bottom: 0; }
+  .cuadros-rct .rct-div p {
+    color: #262626; }
+  .cuadros-rct .rct-div a {
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #bebebe;
+    width: fit-content;
+    cursor: pointer;
+    color: #262626;
+    font-size: 17px;
+    padding: 0.5em 3em;
+    text-decoration: none;
+    display: flex;
+    justify-content: right; }
+    .cuadros-rct .rct-div a:hover {
+      color: #eabe3f;
+      border: 1px solid #eabe3f; }
 
 @keyframes start {
   0% {
@@ -836,6 +828,10 @@
     justify-content: center;
     width: 70%;
     padding: 2em; }
+    .productos1 .txt-card h3 {
+      font-family: 'Chau Philomene One', sans-serif;
+      color: #303030;
+      font-size: 3em; }
     .productos1 .txt-card img {
       width: 37%; }
 

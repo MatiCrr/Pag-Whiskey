@@ -2,9 +2,10 @@
 @media only screen and (max-width: 1640px){
 
 	.header-info, .header-contacto, .header-sabores, .header-recetas, .headerimg{
-		background-position-x: -220px;
+		background-position-x: right;
 		animation-name: slide2;
 	 	animation-duration: 2s;
+		background-size: cover;
 	}
 	
 
@@ -16,7 +17,8 @@
 @media only screen and (max-width: 1400px){
 
 	.header-info, .header-contacto, .header-sabores, .header-recetas, .headerimg{
-		background-position-x: -400px;
+		background-position-x: right;
+		background-size: cover;
 		animation-name: slide3;
 	 	animation-duration: 2s;
 	}
@@ -50,15 +52,22 @@
 
 @media only screen and (max-width: 1300px){
 	.header-info, .header-contacto, .header-sabores, .header-recetas{
-		animation: slide34 2s;
+		animation: slide4 2s;
 		background-position-x: 0px;
-		background-position-y: 120px;
+		background-position-y: center;
 		background-attachment: scroll;
 		background-size: contain;
 	}
 
 }
 
+.header-novedades{
+	
+	
+	
+	background-attachment: scroll;
+	
+}
 
 
 
@@ -115,7 +124,13 @@
 
 /*-----------------------------------------------HEADER END */
 
-
+.cuadro-1y2-rct{
+	flex-direction: column;
+}
+.cuadro-1y2-rct .rct-div{
+	width: 100%;
+	padding: 3em;
+}
 
 
 /*-----------------------------------------------CUADROS START */
@@ -208,7 +223,7 @@
 	}
 	/*-----------------------------------------------HEADER BACKGROUND */
 
-	.header-info, .header-contacto, .header-sabores, .header-recetas, .header-novedades{
+	.header-novedades, .header-info, .header-contacto, .header-sabores, .header-recetas {
 		background-image: url(../img/bckgrounds/vg45.jpg);
 		background-size: 100%;
 		background-position-y: bottom;
@@ -216,7 +231,14 @@
 	}
 	.headerimg{
 		background-image: url(../img/bckgrounds/vg45.jpg);
+		background-size: 100%;
+		animation: slide34 2s;
+		background-position-x: center;
+		background-position-y: bottom;
+		background-attachment: scroll;
 	}
+
+	
 
 	/*-----------------------------------------------HEADER BACKGROUND END*/
 
@@ -338,10 +360,15 @@
 	}
 	
 	.productos1 .txt-card{
-		
+		padding-top: 0em;
 		width: 100%;
+		text-align: center;
 	}
-	
+
+	.productos1 .txt-card h3{
+		font-size: 2.2em;
+	}
+
 	.productos1 .img-card {
 		border-right: 0px solid black;
 		width: 100%;
@@ -412,26 +439,13 @@
 
 /*------------------------------------------RECETAS */
 
-.manhattan-img h3{
-	font-size: 3.3em;
-	background-size: ;
-	
-}
-.cafe-img h3{
-	font-size: 3em;
-	background-size: ;
-	
-}
 
-.collins-img h3{
-	font-size: 3.3em;
-	background-size: ;
+.manhattan-img h3, .cafe-img h3, .collins-img h3, .mint-img h3 {
+    
 	
-}
-
-.mint-img h3{
-	font-size: 3.3em;
-	background-size: contain;
+    font-size: 3em;
+    
+    margin: auto;
 }
 
 .manhattan-img, .cafe-img, .collins-img, .mint-img{
@@ -501,11 +515,16 @@ main p{
 
 
 	.new-s{
-		flex-direction: column;
+		flex-direction: column-reverse;
 		align-items: center;
 		padding: 1.5em;
+		padding-bottom: 0px;
 	}
-
+	.new-s .txt-new a{
+	
+		display: none;
+		
+	}
 
 .img-new img{
 	width: 17em;
@@ -536,6 +555,7 @@ footer .redesdiv img{
 	}
 
 
+
 .recetas-cuadro .cuadro1{
 		
 	align-items: center;
@@ -546,7 +566,7 @@ footer .redesdiv img{
 	align-items: center;
 	text-align: center;
 	padding: 5em 1em ;
-	}
+	} 
 .recetas-cuadro .cuadro3{
 	align-items: center;
 	text-align: center;
@@ -557,6 +577,7 @@ footer .redesdiv img{
 	text-align: center;
 	padding: 5em 1em ;
 	}
+
 
 .productos1 .img-card img{
 	min-width: 10em;

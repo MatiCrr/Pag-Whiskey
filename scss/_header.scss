@@ -143,8 +143,8 @@
 }
 
 .header-complete{
-	min-height: 100vh
-    min-height: 150vh
+	min-height: 100vh;
+    max-height: 150vh;
 }
 
 
@@ -233,13 +233,13 @@
 }
 
 .header-sabores{
-    @include m-headerimg
+    @include m-headerimg;
     background-image: url(../img/bckgrounds/vg10.jpg);
    
 }
 
 .header-novedades{
-    @include m-headerimg
+    @include m-headerimg;
     background-image: url(../img/bckgrounds/vg.jpg);
 }
 
@@ -251,14 +251,14 @@
 }
 
 .header-contacto{
-    @include m-headerimg
+    @include m-headerimg;
 
     background-image: url(../img/bckgrounds/vg9.jpg);
    
 }
 
 .header-recetas{
-    @include m-headerimg
+    @include m-headerimg;
 
     background-image: url(../img/bckgrounds/vg7.jpg);
    
