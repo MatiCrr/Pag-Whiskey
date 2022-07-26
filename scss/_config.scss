@@ -87,27 +87,16 @@
 
 @keyframes slide34{
 	0%{
-		background-position-x: 1000px;
+		background-position-y: 800px;
 		
 		
 	}
 	100%{
-		background-position-x: 0px;
+		background-position-y: bottom;
 		
 	}
 }
 
-@keyframes slide-up{
-	0%{
-		background-position-y: 1000px;
-		
-		
-	}
-	100%{
-		background-position-y: 0px;
-		
-	}
-}
 
 
 
@@ -122,10 +111,38 @@
 	}
 } 
 
+@keyframes up-slide{
+	0% {
+	transform: translateY(+40%);
+	
+	}
+	100% {
+	transform: translateY(0);
+	
+	}
+} 
 
+@keyframes zoom-slide1{
+	0% {
+	transform: scale(100%)
+	
+	}
+	100% {
+	transform: scale(105%)
+	
+	}
+}
 
-
-
+@keyframes zoom-slide2{
+	0% {
+	transform: scale(100%)
+	
+	}
+	100% {
+	transform: scale(102%)
+	
+	}
+}
 
 
 
@@ -293,7 +310,165 @@
 }
 
 
+// ---------------------Cuadro de RECETAS--------------------//
 
+.recetas-cuadro{
+	border-radius: $border-radius;
+	background-color: #070707;
+	
+	.r-c-cont1{
+		display: flex;
+	}
+	.cuadro1{
+		background-image: url(../img/recetas/nor2.jpg);
+		
+	}
+	.cuadro2{
+		background-image: url(../img/recetas/cof2.jpg);
+		
+	}
+	.cuadro3{
+		background-image: url(../img/recetas/man2.jpg);
+		width: 50%;
+
+		
+	}
+	.cuadro4{
+		background-image: url(../img/recetas/mint.jpg);
+		width: 50%;
+		margin-left: .1em;
+		border-radius: 0px  $border-radius $border-radius 0px;
+		
+	}
+
+	.cuadro1, .cuadro2, .cuadro3, .cuadro4{
+		
+		display: flex;
+		justify-content: center;
+		
+		flex-direction: column;
+		padding: 7em 5em;
+		
+		text-align: left;
+	
+		
+		border-radius:$border-radius;
+		
+		
+		
+		
+		
+		
+		
+		&:hover{
+		
+			animation: zoom-slide2 1s;
+			animation-fill-mode: forwards;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		background-size: cover;
+		background-repeat: no-repeat;
+		h5{
+			width: 50%;
+			color: white;
+			margin-bottom: 0;
+		}
+		p{
+			width: 50%;
+			color: white;
+		}
+		a{
+				background-color: transparent;
+				border-radius:50px;
+				border: 1px solid $color-border;
+				width: fit-content;
+				cursor: pointer;
+				color: white;
+				
+				padding:0.5em 3em;
+				text-decoration:none;
+				display: flex;
+				justify-content: right;
+		
+	
+		&:hover{
+			color: $color-dorado;
+			border: 1px solid $color-dorado;
+		}
+		}
+		
+		
+	}
+	.cuadro3, .cuadro4{
+		padding: 5em;
+		border-radius: 0px;
+		margin: 0px;
+		background-position-x: center;
+		background-position-y: 0px;
+		h5{
+			width: 100%;
+			
+		}
+		p{
+			width: 100%;
+			
+		}
+		&:hover{
+		
+			animation: zoom-slide1 1s;
+			animation-fill-mode: forwards;
+			
+		}
+		
+	}
+	.cuadro2{
+		
+		border-radius: 0px 0px $border-radius $border-radius;
+		
+		
+	}
+	.cuadro1{
+		border-radius: $border-radius $border-radius  0px 0px;
+		
+		
+	}
+
+}
+
+@keyframes bg-zoom{
+	0%{
+		background-position-y: 0px;
+	}
+	100%{
+		background-position-y: -20px;
+	}
+
+}
+
+
+
+
+
+
+// ---------------------Cuadro de RECETAS End--------------------//
+
+
+
+
+
+
+
+
+
+
+// ---------------------Cuadro Manu Index--------------------//
 .cuadros{
 	display: flex;
 	
@@ -460,7 +635,7 @@
 
 
 
-
+// ---------------------Cuadro Manu Index End--------------------//
 
 
 

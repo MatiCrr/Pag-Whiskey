@@ -20,8 +20,29 @@
 		animation-name: slide3;
 	 	animation-duration: 2s;
 	}
-	
 
+/*-----------------------------------------------Recetas CUADROS START */
+	.recetas-cuadro .cuadro1{
+		
+		
+		padding: 5em 2em ;
+	}
+	.recetas-cuadro .cuadro2{
+		
+		
+		padding: 5em 2em ;
+	}
+	.recetas-cuadro .cuadro3{
+		
+		
+		padding: 5em 2em ;
+	}
+	.recetas-cuadro .cuadro4{
+		
+		
+		padding: 5em 2em ;
+	}
+/*-----------------------------------------------Recetas CUADROS End */
 }
 
 
@@ -54,6 +75,31 @@
 .main-txt p{
 		width: 80%;
 	}
+
+
+/*-----------------------------------------------Recetas CUADROS START */
+	.recetas-cuadro .r-c-cont1{
+			
+		flex-direction: column;
+	}
+	.recetas-cuadro .cuadro1 p{
+		width: 100%;
+	}
+	.recetas-cuadro .cuadro2 p{
+		width: 100%;
+	}
+	.recetas-cuadro .cuadro3 {
+		
+		width: 100%;
+		
+	}
+	.recetas-cuadro .cuadro4{
+		
+		width: 100%;
+		
+	}
+
+/*-----------------------------------------------Recetas CUADROS End */
 
 
 /*-----------------------------------------------HEADER START */
@@ -116,9 +162,34 @@
 
 /* -----------------------------------------------CUADROS END */
 
-/* -----------------------------------------------CUADROS END */
 
 
+/* -----------------------------------------------New SABOR */
+.new-s{
+	
+	align-items: center;
+	
+}
+.new-s .txt-new a{
+	
+	margin-bottom: 1.5em;
+	
+}
+
+.img-new img{
+
+	width: 20em;
+}
+
+.new-s .txt-new{
+	width: 100%;
+}
+
+
+
+
+
+/* -----------------------------------------------New SABOR ENDS */
 
 
 
@@ -130,7 +201,26 @@
 
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 992px){
+	
+	.nav-item a{
+		color: #262626;
+	}
+	/*-----------------------------------------------HEADER BACKGROUND */
+
+	.header-info, .header-contacto, .header-sabores, .header-recetas, .header-novedades{
+		background-image: url(../img/bckgrounds/vg45.jpg);
+		background-size: 100%;
+		background-position-y: bottom;
+		animation: slide34 2s;
+	}
+	.headerimg{
+		background-image: url(../img/bckgrounds/vg45.jpg);
+	}
+
+	/*-----------------------------------------------HEADER BACKGROUND END*/
+
+
 
 	/*-----------------------------------------------HEADER START */
 	
@@ -157,16 +247,18 @@
 	}
 	.headerbb{
 		
+		
 		height: 100%;
 		margin: auto;
 		
 		display: flex;
 		align-items: center;
 		
-		width: 60%;
+		width: 50%;
     	flex-direction: column;
 		
 		padding-top: 10%;
+		padding-bottom: 10%;
 		
 		animation: start 2s;
 		
@@ -174,21 +266,21 @@
 	
 	.header-txt-c{
 		display: block;
-	
+		
 	}
 	.headerbb .header-txt-c{
 		max-width: 80%;
 		margin-top: 2em;
 		margin-left: 0;
 		margin-bottom: 1em;
-	   
+	    animation: down-slide 2s;
 	
 	}
 	.headerbb .header-logo{
 		max-width: 80%;
 		height: fit-content;
 		margin-bottom: 0em;
-	   
+	    animation: down-slide 2s;
 	 }
 	 .demo{
 		display: flex;
@@ -196,8 +288,7 @@
 		flex-direction: column;
 		margin-top: 1em;
 	  
-		animation-name: start;
-		animation-duration: 2s ;
+		animation: down-slide 2s;
 	  
 		
 	  }
@@ -269,8 +360,17 @@
 	.dos-img-center .left img{
 		width: 100%;
 	}
-		
 	
+	.new-s .txt-new h4{
+	
+		font-size: 1.8em;
+		
+	}
+	.new-s .txt-new h6{
+	
+		font-size: 1.2em;
+		
+	}
 
 	/*------------------------------------------NUEVO SABOR END */
 
@@ -338,6 +438,12 @@
 	padding: 6em 0;
 }
 
+.recetas-cuadro a{
+	
+	font-size:14px;
+	padding:0.2em 1em;
+
+}
 
 
 
@@ -393,6 +499,18 @@ main p{
 	}
 
 
+
+	.new-s{
+		flex-direction: column;
+		align-items: center;
+		padding: 1.5em;
+	}
+
+
+.img-new img{
+	width: 17em;
+}
+
 .headerbb{
 		padding-top: 20%;
 		flex-direction: column;
@@ -417,6 +535,32 @@ footer .redesdiv img{
 		width: 2em;
 	}
 
+
+.recetas-cuadro .cuadro1{
+		
+	align-items: center;
+	text-align: center;
+	padding: 5em 1em ;
+	}
+.recetas-cuadro .cuadro2{
+	align-items: center;
+	text-align: center;
+	padding: 5em 1em ;
+	}
+.recetas-cuadro .cuadro3{
+	align-items: center;
+	text-align: center;
+	padding: 5em 1em ;
+	}
+.recetas-cuadro .cuadro4{
+	align-items: center;
+	text-align: center;
+	padding: 5em 1em ;
+	}
+
+.productos1 .img-card img{
+	min-width: 10em;
+}
 
 
 }
