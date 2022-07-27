@@ -96,8 +96,29 @@
 	}
 }
 
+@keyframes slide34{
+	0%{
+		background-position-y: 800px;
+		
+		
+	}
+	100%{
+		background-position-y: bottom;
+		
+	}
+}
 
-
+@keyframes slide1{
+	0%{
+		background-position-x: 1000px;
+		
+		
+	}
+	100%{
+		background-position-x: 0px;
+		
+	}
+}
 
 
 

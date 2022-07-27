@@ -2,16 +2,24 @@
 
 
 footer{
-	padding-top: 1em;
+	padding-top: 3em;
 	
  	display: flex;
 	flex-direction: column;
  	align-items: center;
 	justify-content: center;
-	padding-bottom: 3em;
-	background-image: url(../img/bckgrounds/footer.jpg);
-	background-attachment: fixed;
-		
+	padding-bottom: 6em;
+	text-align: center;
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	.p-foot{
+		p{
+			font-size: 1em;
+			width: 80%;
+			margin: auto;
+		}
+	}
 	
 	.line-footer{
 		background-color: $color-border;
@@ -22,6 +30,10 @@ footer{
 	
 
 	.footer-nav{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		
 			ul{
 				margin: 2.4em 0;
 				display: flex;
@@ -54,7 +66,9 @@ footer{
 	}
  	
 	.logo-footer{
+		
 		display: flex;
+		
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;

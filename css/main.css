@@ -171,58 +171,60 @@
     animation-fill-mode: forwards; }
 
 .headerimg {
-  background-color: #eeeeee;
+  background-color: #efefef;
   background-repeat: no-repeat;
   background-attachment: fixed;
   animation-name: slide;
   animation-duration: 2s;
   background-position-x: right;
-  background-image: url(../img/bckgrounds/vg3.jpg); }
+  background-image: url(../img/bckgrounds/vg3.jpg);
+  animation-name: slide1; }
 
 .header-sabores {
-  background-color: #eeeeee;
+  background-color: #efefef;
   background-repeat: no-repeat;
   background-attachment: fixed;
   animation-name: slide;
   animation-duration: 2s;
   background-position-x: right;
-  background-image: url(../img/bckgrounds/vg10.jpg); }
+  background-image: url(../img/bckgrounds/vg10.webp); }
 
 .header-novedades {
-  background-color: #eeeeee;
+  background-color: #efefef;
   background-repeat: no-repeat;
   background-attachment: fixed;
   animation-name: slide;
   animation-duration: 2s;
   background-position-x: right;
-  background-image: url(../img/bckgrounds/vg.jpg); }
+  background-image: url(../img/bckgrounds/vg.webp);
+  animation-name: slide1; }
 
 .header-info {
-  background-color: #eeeeee;
+  background-color: #efefef;
   background-repeat: no-repeat;
   background-attachment: fixed;
   animation-name: slide;
   animation-duration: 2s;
   background-position-x: right;
-  background-image: url(../img/bckgrounds/vg8.jpg); }
+  background-image: url(../img/bckgrounds/vg8.webp); }
 
 .header-contacto {
-  background-color: #eeeeee;
+  background-color: #efefef;
   background-repeat: no-repeat;
   background-attachment: fixed;
   animation-name: slide;
   animation-duration: 2s;
   background-position-x: right;
-  background-image: url(../img/bckgrounds/vg9.jpg); }
+  background-image: url(../img/bckgrounds/vg9.webp); }
 
 .header-recetas {
-  background-color: #eeeeee;
+  background-color: #efefef;
   background-repeat: no-repeat;
   background-attachment: fixed;
   animation-name: slide;
   animation-duration: 2s;
   background-position-x: right;
-  background-image: url(../img/bckgrounds/vg7.jpg); }
+  background-image: url(../img/bckgrounds/vg7.webp); }
 
 .navbar {
   width: 70%; }
@@ -328,6 +330,18 @@
     background-position-x: 1000px; }
   100% {
     background-position-x: right; } }
+
+@keyframes slide34 {
+  0% {
+    background-position-y: 800px; }
+  100% {
+    background-position-y: bottom; } }
+
+@keyframes slide1 {
+  0% {
+    background-position-x: 1000px; }
+  100% {
+    background-position-x: 0px; } }
 
 @keyframes down-slide {
   0% {
@@ -977,33 +991,42 @@ mg-1 {
   width: 35%; }
 
 footer {
-  padding-top: 1em;
+  padding-top: 3em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 3em;
-  background-image: url(../img/bckgrounds/footer.jpg);
-  background-attachment: fixed; }
+  padding-bottom: 6em;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  footer .p-foot p {
+    font-size: 1em;
+    width: 80%;
+    margin: auto; }
   footer .line-footer {
     background-color: #bebebe;
     width: 100%;
     height: .5px; }
-  footer .footer-nav ul {
-    margin: 2.4em 0;
+  footer .footer-nav {
+    width: 100%;
     display: flex;
-    list-style: none;
-    padding: 0; }
-    footer .footer-nav ul a {
-      color: #bebebe;
-      font-size: 1.15em;
-      font-weight: 400;
-      text-decoration: none;
-      color: #262626;
-      font-family: Roboto, sans-serif;
-      margin: 10px; }
-      footer .footer-nav ul a:hover {
-        color: #eabe3f; }
+    justify-content: center; }
+    footer .footer-nav ul {
+      margin: 2.4em 0;
+      display: flex;
+      list-style: none;
+      padding: 0; }
+      footer .footer-nav ul a {
+        color: #bebebe;
+        font-size: 1.15em;
+        font-weight: 400;
+        text-decoration: none;
+        color: #262626;
+        font-family: Roboto, sans-serif;
+        margin: 10px; }
+        footer .footer-nav ul a:hover {
+          color: #eabe3f; }
   footer .redesdiv {
     display: flex;
     justify-content: end; }

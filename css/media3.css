@@ -1,13 +1,15 @@
 
 @media only screen and (max-width: 1640px){
 
-	.header-info, .header-contacto, .header-sabores, .header-recetas, .headerimg{
+	.header-info, .header-contacto, .header-sabores, .header-recetas{
 		background-position-x: right;
 		animation-name: slide2;
 	 	animation-duration: 2s;
 		background-size: cover;
 	}
-	
+	.headerimg, .header-novedades{
+		background-position: left;
+	}
 
 }
 
@@ -16,7 +18,7 @@
 
 @media only screen and (max-width: 1400px){
 
-	.header-info, .header-contacto, .header-sabores, .header-recetas, .headerimg{
+	.header-info, .header-contacto, .header-sabores, .header-recetas{
 		background-position-x: right;
 		background-size: cover;
 		animation-name: slide3;
@@ -61,14 +63,19 @@
 
 }
 
-.header-novedades{
+.header-novedades, .headerimg{
+	
+	background-position-x: 0px;
+	background-position-y: center;
+	background-attachment: fixed;
+	background-size: cover;
 	
 	
-	
-	background-attachment: scroll;
 	
 }
-
+.header-novedades{
+	background-attachment: scroll;
+}
 
 
 
@@ -239,7 +246,7 @@
 	}
 
 	
-
+	
 	/*-----------------------------------------------HEADER BACKGROUND END*/
 
 
@@ -280,7 +287,7 @@
     	flex-direction: column;
 		
 		padding-top: 10%;
-		padding-bottom: 10%;
+		padding-bottom: 25%;
 		
 		animation: start 2s;
 		
