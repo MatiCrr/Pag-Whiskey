@@ -196,8 +196,7 @@
   animation-name: slide;
   animation-duration: 2s;
   background-position-x: right;
-  background-image: url(../img/bckgrounds/vg.webp);
-  animation-name: slide1; }
+  background-image: url(../img/bckgrounds/vg10.webp); }
 
 .header-info {
   background-color: #efefef;
@@ -215,7 +214,7 @@
   animation-name: slide;
   animation-duration: 2s;
   background-position-x: right;
-  background-image: url(../img/bckgrounds/vg11.jpg); }
+  background-image: url(../img/bckgrounds/vg11.webp); }
 
 .header-recetas {
   background-color: #efefef;
@@ -678,21 +677,31 @@
   display: flex;
   justify-content: space-between; }
 
-.img-lat, .img-lat-in {
-  background-image: url(../img/bckgrounds/paris.jpg);
+.img-lat {
   background-size: 150%;
   background-position-y: center;
   background-position-x: center;
   background-repeat: no-repeat;
   width: 49%;
-  height: 700px; }
+  height: 600px;
+  background-image: url(../img/bckgrounds/paris.jpg);
+  width: 49%; }
+
+.img-lat-recetas {
+  background-size: 150%;
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  width: 49%;
+  height: 600px;
+  background-image: url(../img/bckgrounds/coctel.jpg); }
 
 .txt-lat, .txt-lat-in {
   width: 51%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 1em 0;
+  margin: .6em 0;
   padding: 2em;
   border: 1px solid #bebebe;
   border-right: 0px; }
@@ -710,6 +719,34 @@
     justify-content: right;
     margin: 1em 0; }
     .txt-lat a:hover, .txt-lat-in a:hover {
+      color: #eabe3f;
+      border: 1px solid #eabe3f; }
+
+.txt-lat-hs {
+  width: 51%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: .6em 0;
+  padding: 2em;
+  border: 1px solid #bebebe;
+  border-right: 0px;
+  width: 61%;
+  padding: 2.5em; }
+  .txt-lat-hs a {
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #bebebe;
+    width: fit-content;
+    cursor: pointer;
+    color: #1b1b1b;
+    font-size: 17px;
+    padding: 0.5em 3em;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    margin: 1em 0; }
+    .txt-lat-hs a:hover {
       color: #eabe3f;
       border: 1px solid #eabe3f; }
 
@@ -765,6 +802,9 @@
   width: 70%;
   margin: auto; }
 
+.mg-auto {
+  margin: auto auto; }
+
 .map {
   border-radius: 10px;
   margin-bottom: 2em; }
@@ -798,6 +838,9 @@
 
 .spacer {
   height: 4em; }
+
+.spacer2 {
+  height: 2em; }
 
 .border-top1 {
   border-top: 1px solid #303030; }

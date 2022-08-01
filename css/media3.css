@@ -1,13 +1,13 @@
 
 @media only screen and (max-width: 1640px){
 
-	.header-info, .header-contacto, .header-sabores, .header-recetas{
+	.header-info, .header-contacto, .header-sabores, .header-recetas, .header-novedades{
 		background-position-x: right;
 		animation-name: slide2;
 	 	animation-duration: 2s;
 		background-size: cover;
 	}
-	.headerimg, .header-novedades{
+	.headerimg{
 		background-position: left;
 	}
 
@@ -53,7 +53,7 @@
 
 
 @media only screen and (max-width: 1300px){
-	.header-info, .header-contacto, .header-sabores, .header-recetas{
+	.header-info, .header-contacto, .header-sabores, .header-recetas, .header-novedades{
 		animation: slide4 2s;
 		background-position-x: 0px;
 		background-position-y: center;
@@ -63,7 +63,7 @@
 
 }
 
-.header-novedades, .headerimg{
+.headerimg{
 	
 	background-position-x: 0px;
 	background-position-y: center;
@@ -72,9 +72,6 @@
 	
 	
 	
-}
-.header-novedades{
-	background-attachment: scroll;
 }
 
 
@@ -374,7 +371,7 @@
 	}
 
 	.productos1 .img-card img{
-	
+		padding-top: 1em;
 		max-width: 20%;
 	}
 	.productos1 .txt-card img{
@@ -384,9 +381,10 @@
 	}
 	
 	.productos1 .txt-card{
-		padding-top: 0em;
+		
 		width: 100%;
 		text-align: center;
+		padding: 0em 1em;
 	}
 
 	.productos1 .txt-card h3{
@@ -430,6 +428,16 @@
 
 }
 .img-lat{
+	height: 500px;
+	width: 100%;
+	background-position-y: center;
+}
+.img-lat-recetas{
+	height: 500px;
+	width: 100%;
+	background-position-y: center;
+}
+.img-lat-hs{
 	height: 500px;
 	width: 100%;
 	background-position-y: center;
@@ -621,10 +629,11 @@ footer .redesdiv img{
 .productos1 .img-card img{
 	min-width: 10em;
 }
-.img-lat{
+.img-lat, .img-lat-hs, .img-lat-recetas{
 	height: 300px;
 	
 }
+
 .txt-lat{
 	
 }

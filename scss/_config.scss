@@ -646,34 +646,32 @@
 	display: flex;
 	justify-content: space-between;
 	
+	
 
 }
- .img-lat, .img-lat-in{
+
+ .img-lat{
+	@include m-img-lat;
 	background-image: url(../img/bckgrounds/paris.jpg);
-	background-size: 150%;
-	background-position-y: center;
-	background-position-x: center;
-	background-repeat: no-repeat;
 	width: 49%;
-	height: 700px;
 	
 	
  }
 
+ .img-lat-recetas{
+	@include m-img-lat;
+	background-image: url(../img/bckgrounds/coctel.jpg);
+ }
+
 .txt-lat, .txt-lat-in{
-	width: 51%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin: 1em 0;
-	padding: 2em;
-	border: 1px solid $color-border;
+@include m-txt-lat
+}
+
+.txt-lat-hs{
+	@include m-txt-lat;
+	width: 61%;
+	padding: 2.5em;
 	
-	border-right: 0px;
-	a{
-		@include m-button;
-		margin: 1em 0;
-	}
 }
 
 .img-lat-in{
@@ -781,6 +779,9 @@
     width: $wid-main;
     margin: $margin-auto;
 }
+.mg-auto{
+	margin: auto auto;
+}
 
 
 .map{
@@ -826,6 +827,9 @@
 
 .spacer{
 	height: 4em;
+}
+.spacer2{
+	height: 2em;
 }
 
 .border-top1{

@@ -240,8 +240,8 @@
 
 .header-novedades{
     @include m-headerimg;
-    background-image: url(../img/bckgrounds/vg.webp);
-    animation-name: slide1;
+    background-image: url(../img/bckgrounds/vg10.webp);
+    
    
 }
 
@@ -255,7 +255,7 @@
 .header-contacto{
     @include m-headerimg;
 
-    background-image: url(../img/bckgrounds/vg11.jpg);
+    background-image: url(../img/bckgrounds/vg11.webp);
    
 }
 
