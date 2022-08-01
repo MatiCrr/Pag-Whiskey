@@ -1,16 +1,15 @@
-.navbar{
-	width: $wid-main;
-}
 
-.container-fluid{
-	display: flex;
-	justify-content: space-between;
-}
+
+
 
 .navbar	{
+	width: $wid-main;
     display: flex;
     justify-content: space-between;
     background-color: transparent;
+	
+
+	
 }
 
 .logo {
@@ -25,7 +24,7 @@ width: 3em;
 		font-family: Roboto, sans-serif;
 		margin: 5px;
         &:hover{
-	    color: white;
+	    color: $color-dorado;
         }
 }
 
@@ -42,6 +41,7 @@ width: 3em;
 .nav-bg{
 	background-image: url(../img/bckgrounds/nav-bg.png);
 	
-	border-radius: 40px;
+	border-radius: 0px 20px 0px 20px ;
 	padding: 0px 20px;
 }
+

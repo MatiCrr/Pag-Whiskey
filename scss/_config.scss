@@ -176,8 +176,17 @@
 	transform: scale(102%)
 	
 	}
-}
-
+} 
+@keyframes momo{
+	0% {
+	background-size: 100%;
+	
+	}
+	100% {
+	background-size: 110%
+	
+	}
+} 
 
 
 
@@ -372,6 +381,7 @@
 		width: 50%;
 		margin-left: .1em;
 		border-radius: 0px  $border-radius $border-radius 0px;
+		background-size: cover;
 		
 	}
 
@@ -386,9 +396,9 @@
 		text-align: left;
 		border-radius:$border-radius;
 		&:hover{
-		
-			animation: zoom-slide2 1s;
+			animation: momo 1s;
 			animation-fill-mode: forwards;
+			
 		}
 		
 		h5{
@@ -439,16 +449,17 @@
 		}
 		&:hover{
 		
-			animation: zoom-slide1 1s;
+			animation: momo 1s;
 			animation-fill-mode: forwards;
-			
 		}
 	}
 	.cuadro2{
 		border-radius: 0px 0px $border-radius $border-radius;
+		background-position-x: center;
 	}
 	.cuadro1{
 		border-radius: $border-radius $border-radius  0px 0px;
+		background-position-x: center;
 	}
 
 }
@@ -531,11 +542,14 @@
 		&:hover{
 			color: $color-dorado;
 			border: 1px solid $color-dorado;
+			
 		}
 		}
 		&:hover{
 			animation: border .4s;
 			animation-fill-mode: forwards;
+			
+			
 		}
 	}
 
@@ -546,6 +560,7 @@
 	.cuadro3{
 		margin-bottom: 0px;
 		width: 50%;
+		margin-right: 0px;
 	}
 }
 
@@ -627,19 +642,56 @@
 // ---------------------Cuadro de RECETAS Recetas END--------------------//
 
 
+.img-lateral, .img-lateral-in{
+	display: flex;
+	justify-content: space-between;
+	
 
+}
+ .img-lat, .img-lat-in{
+	background-image: url(../img/bckgrounds/paris.jpg);
+	background-size: 150%;
+	background-position-y: center;
+	background-position-x: center;
+	background-repeat: no-repeat;
+	width: 49%;
+	height: 700px;
+	
+	
+ }
 
+.txt-lat, .txt-lat-in{
+	width: 51%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 1em 0;
+	padding: 2em;
+	border: 1px solid $color-border;
+	
+	border-right: 0px;
+	a{
+		@include m-button;
+		margin: 1em 0;
+	}
+}
 
+.img-lat-in{
+	background-image: url(../img/bckgrounds/paris.jpg);
+	
+	
+	
+ }
 
-
-
-
-
-
-
-
-
-
+ .txt-lat-in{
+	border: 1px solid $color-border;
+	
+	border-left: 0px;
+	a{
+		@include m-button;
+		margin: 1em 0;
+	}
+}
 
 
 
@@ -867,8 +919,8 @@
 	margin-top: 1em;
 }
 
-.bg-07{
-	background-color: #070707;
+.bg-grey{
+	background-color: #eeeeee;
 
 }
 

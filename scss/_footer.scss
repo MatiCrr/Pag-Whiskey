@@ -2,7 +2,7 @@
 
 
 footer{
-	padding-top: 3em;
+	padding-top: 1em;
 	
  	display: flex;
 	flex-direction: column;
@@ -10,7 +10,7 @@ footer{
 	justify-content: center;
 	padding-bottom: 6em;
 	text-align: center;
-	
+	background-color: #070707;
 	background-size: cover;
 	background-repeat: no-repeat;
 	.p-foot{
@@ -18,6 +18,8 @@ footer{
 			font-size: 1em;
 			width: 80%;
 			margin: auto;
+			color: white;
+			margin-bottom: 2em;
 		}
 	}
 	
@@ -35,7 +37,7 @@ footer{
 		justify-content: center;
 		
 			ul{
-				margin: 2.4em 0;
+				margin: 2em 0;
 				display: flex;
 				list-style: none;
 				padding: 0;
@@ -45,7 +47,7 @@ footer{
 						font-size: 1.15em;
 						font-weight: 400;
 						text-decoration: none;
-						color: #262626;
+						color: white;
 						font-family: Roboto, sans-serif;
 						margin: 10px;
 						&:hover{

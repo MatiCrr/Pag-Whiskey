@@ -231,13 +231,14 @@
 	/*-----------------------------------------------HEADER BACKGROUND */
 
 	.header-novedades, .header-info, .header-contacto, .header-sabores, .header-recetas {
-		background-image: url(../img/bckgrounds/vg45.jpg);
+		background-image: url(../img/bckgrounds/vg452.jpg);
 		background-size: 100%;
 		background-position-y: bottom;
 		animation: slide34 2s;
 	}
 	.headerimg{
-		background-image: url(../img/bckgrounds/vg45.jpg);
+		background-image: url(../img/bckgrounds/vg452.jpg);
+		
 		background-size: 100%;
 		animation: slide34 2s;
 		background-position-x: center;
@@ -245,7 +246,7 @@
 		background-attachment: scroll;
 	}
 
-	
+
 	
 	/*-----------------------------------------------HEADER BACKGROUND END*/
 
@@ -311,6 +312,12 @@
 		margin-bottom: 0em;
 	    animation: down-slide 2s;
 	 }
+	 .headerbb .header-logo-rest{
+		max-width: 50%;
+		height: fit-content;
+		margin-bottom: 0em;
+	    animation: down-slide 2s;
+	 }
 	 .demo{
 		display: flex;
 		align-items: center;
@@ -320,7 +327,15 @@
 		animation: down-slide 2s;
 	  
 		
+	  } 
+
+	  .demo h2{
+		font: 3em 'Secular One', sans-serif;
+		text-align: center;
+		font
+		
 	  }
+
 	  .demo img {
 		max-width: 2.5em;
 		margin: auto;
@@ -335,7 +350,9 @@
 	  .demo p{
 			font-family: 'Oswald', sans-serif;
 			font-weight: 200;
-			font-size: 1.2em;	
+			font-size: 1.2em;
+			text-align: center;	
+			
 	   
 	  }
 	
@@ -407,8 +424,23 @@
 	}
 
 	/*------------------------------------------NUEVO SABOR END */
+.img-lateral{
+	flex-direction: column-reverse;
+	align-items: center;
 
+}
+.img-lat{
+	height: 500px;
+	width: 100%;
+	background-position-y: center;
+}
+.txt-lat{
+	width: 98%;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
 
+}
 }
 
 @media only screen and (max-width: 768px){
@@ -589,6 +621,14 @@ footer .redesdiv img{
 .productos1 .img-card img{
 	min-width: 10em;
 }
-
-
+.img-lat{
+	height: 300px;
+	
+}
+.txt-lat{
+	
+}
+.txt-lat a{
+	font-size: .9em;
+}
 }
