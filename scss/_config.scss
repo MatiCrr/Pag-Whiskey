@@ -1,3 +1,162 @@
+// -------------------CONFIG--------------------CONFIG---- //
+
+
+
+.pd-3em{
+	padding: 3em;
+}
+
+.pd-1em{
+	padding: 1em;
+}
+
+.underline-1{
+	padding: .2em 0;
+	margin-bottom: .2em;
+	border-bottom: 1px solid $color-border;
+}
+
+.border-1{
+    
+	@include m-border-1();
+
+}
+
+.border-2{
+	border: 1px solid $color-border;
+	width: $wid-main;
+	margin: auto;
+	border-radius: $border-radius;
+	
+}
+
+.border-0{
+	border: 1px solid $color-border;
+	margin: auto;
+	border-radius: $border-radius;
+	
+}
+
+.wid-main{
+    width: $wid-main;
+    margin: $margin-auto;
+}
+
+.mg-auto{
+	margin: auto auto;
+}
+
+.map{
+	border-radius:  $border-radius;
+	margin-bottom: 2em;
+
+}
+
+.bg-1{
+	background-color: $bg-1;
+}
+
+.border-both{
+	@include m-border-both;
+}
+.main-txt{
+	padding: 1em 0;
+	h3{
+		width: $wid-main;
+		margin: 0 auto;
+		padding: .3em 0;
+	}
+	h2{
+		width: $wid-main;
+		margin: 0 auto;
+		
+	}
+	h1{
+		width: $wid-main;
+		margin: 0 auto;
+	}
+	p{
+		width: $wid-main;
+		margin: 0 auto;
+	}
+	.map{
+		width: $wid-main;
+		
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+.spacer{
+	height: 4em;
+}
+
+.spacer2{
+	height: 2em;
+}
+
+.border-top1{
+	border-top: 1px solid #303030;
+}
+
+.txt-c{
+	text-align: center;
+}
+
+.prod-underline{
+	border-top: 1px solid $color-border;
+	margin: .5em 0;
+	width: 100%;
+}
+
+.underline{
+	border-top: 1px solid $color-border ;
+	width:	$wid-main;
+	margin: 1em auto; 
+}
+
+.underline-h3-large{
+	border-top: 1px solid $color-border ;
+	width:	$wid-main;
+	margin: .5em auto; 
+	
+}
+
+.underline-h3-short{
+	border-top: 1px solid $color-border ;
+	width:	50%;
+	
+	margin: .5em auto; 
+}
+
+.line{
+	height: 26vw;
+	
+	min-width: 1px;
+	background-color: $color-border;
+	margin: 2em;
+}
+
+.w-small{
+	width: 4.5em;
+	margin: .5 auto;
+	margin-top: 1em;
+}
+
+
+
+
+
+
+// -------------------CONFIG--------------------CONFIG---- //
+
+
+
+
+
+
+
+
 
 .new-s{
 	display: flex;
@@ -48,145 +207,6 @@
 
 
 
-@keyframes slide{
-	0%{
-		background-position-x: 1000px;
-		
-		
-	}
-	100%{
-		background-position-x: right;
-		
-	}
-}
-
-
-@keyframes slide2{
-	0%{
-		background-position-x: 1000px;
-		
-		
-	}
-	100%{
-		background-position-x: right;
-		
-	}
-}
-
-@keyframes slide3{
-	0%{
-		background-position-x: 1000px;
-		
-		
-	}
-	100%{
-		background-position-x: right;
-		
-	}
-}
-@keyframes slide4{
-	0%{
-		background-position-x: 1000px;
-		
-		
-	}
-	100%{
-		background-position-x: right;
-		
-	}
-}
-
-@keyframes slide34{
-	0%{
-		background-position-y: 800px;
-		
-		
-	}
-	100%{
-		background-position-y: bottom;
-		
-	}
-}
-
-@keyframes slide1{
-	0%{
-		background-position-x: 1000px;
-		
-		
-	}
-	100%{
-		background-position-x: 0px;
-		
-	}
-}
-
-
-
-
-@keyframes down-slide{
-	0% {
-	transform: translateY(-40%);
-	
-	}
-	100% {
-	transform: translateY(0);
-	
-	}
-} 
-
-@keyframes up-slide{
-	0% {
-	transform: translateY(+40%);
-	
-	}
-	100% {
-	transform: translateY(0);
-	
-	}
-} 
-
-@keyframes zoom-slide1{
-	0% {
-	transform: scale(100%)
-	
-	}
-	100%{
-		transform: scale(102%);
-	}
-	
-}
-
-@keyframes reverse{
-	0% {
-	transform: scale(105%)
-	}
-	
-	100% {
-	transform: scale(100%)
-	
-	}
-}
-
-@keyframes zoom-slide2{
-	0% {
-	transform: scale(100%)
-	
-	}
-	100% {
-	transform: scale(102%)
-	
-	}
-} 
-@keyframes momo{
-	0% {
-	background-size: 100%;
-	
-	}
-	100% {
-	background-size: 110%
-	
-	}
-} 
 
 
 
@@ -238,11 +258,6 @@
 
 
 
-
-
-
-
-
 .manhattan-img{
 	background-image: url(../img/recetas/man2.jpg);
 	
@@ -267,93 +282,7 @@
 
 
 
-
-
-
-
-.pd-1em{
-	padding: 1em;
-}
-
-.underline-dorado{
-	padding: .2em 0;
-	margin-bottom: .2em;
-	border-bottom: 1px solid $color-border;
-}
-
-.underline-1{
-	padding: .2em 0;
-	margin-bottom: .2em;
-	border-bottom: 1px solid $color-border;
-}
-
-.slider-h2{
-	
-	margin: auto;
-	.carousel-inner{
-		
-		display: flex;
-		
-		h2{
-			margin: 0;
-		}
-		
-		h5{
-			
-			color: white;
-			text-align: left
-		}
-		p{
-			color: white;
-			text-align: left
-		}
-		a{
-			@include m-button;
-			color: white;
-			font-size: 1.1em;
-			padding: .4em 1em;
-			&:hover{
-				color: $color-dorado;
-				border: 1px solid $color-dorado;
-			}
-		}
-		}
-	
-}
-
-
-
-.dosimg-cont{
-	display: flex;
-	
-	margin: auto;
-	div:last-child{
-		width: 70%;
-		
-	}
-	a{
-		@include m-button;
-	}
-}
-
-.dos-img-center{
-	display: flex;
-	justify-content: center;
-	width: 30%;
-	
-	margin: auto;
-
-	.left{
-					
-		img{
-			width:90%;
-		}
-	}
-	
-}
-
-
-// ---------------------Cuadro de RECETAS--------------------//
+// ---------------------Cuadro de RECETAS en Index--------------------//
 
 .recetas-cuadro{
 	border-radius: $border-radius;
@@ -396,7 +325,7 @@
 		text-align: left;
 		border-radius:$border-radius;
 		&:hover{
-			animation: momo 1s;
+			animation: bg-zoom-in 1s;
 			animation-fill-mode: forwards;
 			
 		}
@@ -438,7 +367,7 @@
 		margin: 0px;
 		background-position-x: center;
 		background-position-y: 0px;
-		animation: reverse 1s;
+		
 		h5{
 			width: 100%;
 			
@@ -449,7 +378,7 @@
 		}
 		&:hover{
 		
-			animation: momo 1s;
+			animation: bg-zoom-in 1s;
 			animation-fill-mode: forwards;
 		}
 	}
@@ -464,22 +393,13 @@
 
 }
 
-@keyframes bg-zoom{
-	0%{
-		background-position-y: 0px;
-	}
-	100%{
-		background-position-y: -20px;
-	}
-
-}
 
 
 
 
 
 
-// ---------------------Cuadro de RECETAS End--------------------//
+// ---------------------Cuadro de RECETAS en Index End--------------------//
 
 
 
@@ -546,12 +466,15 @@
 		}
 		}
 		&:hover{
-			animation: border .4s;
+			animation: border-1 .4s;
 			animation-fill-mode: forwards;
 			
 			
 		}
 	}
+
+
+
 
 	.cuadro2{
 		margin-bottom: 0px;
@@ -578,7 +501,8 @@
 
 
 
-// ---------------------Cuadro de RECETAS Recetas--------------------//
+
+// ---------------------Cuadro de RECETAS en Recetas.html--------------------//
 
 
 
@@ -641,8 +565,8 @@
 
 // ---------------------Cuadro de RECETAS Recetas END--------------------//
 
-
-.img-lateral, .img-lateral-in{
+// ---------------------DIV TXT-IMG--------------------//
+.img-lateral{
 	display: flex;
 	justify-content: space-between;
 	
@@ -652,7 +576,7 @@
 
  .img-lat{
 	@include m-img-lat;
-	background-image: url(../img/bckgrounds/paris.jpg);
+	background-image: url(../img/bckgrounds/paris.webp);
 	width: 49%;
 	
 	
@@ -660,10 +584,10 @@
 
  .img-lat-recetas{
 	@include m-img-lat;
-	background-image: url(../img/bckgrounds/coctel.jpg);
+	background-image: url(../img/bckgrounds/coctel.webp);
  }
 
-.txt-lat, .txt-lat-in{
+.txt-lat{
 @include m-txt-lat
 }
 
@@ -693,240 +617,11 @@
 
 
 
+// ---------------------DIV TXT-IMG END-------------------//
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@keyframes start{
-	0%{
-		opacity: 0;
-	}
-
-	100%{
-		opacity: 1;
-	}
-	0%{
-		opacity: 0;
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.border-1{
-    
-	@include m-border-1();
-
-}
-
-.border-2{
-	border: 1px solid $color-border;
-	width: $wid-main;
-	margin: auto;
-	border-radius: $border-radius;
-	
-}
-
-.border-0{
-	border: 1px solid $color-border;
-	
-	margin: auto;
-	border-radius: $border-radius;
-	
-}
-
-
-.wid-main{
-    width: $wid-main;
-    margin: $margin-auto;
-}
-.mg-auto{
-	margin: auto auto;
-}
-
-
-.map{
-	border-radius:  $border-radius;
-	margin-bottom: 2em;
-
-}
-
-.bg-1{
-	background-color: $bg-1;
-}
-
-.border-both{
-	@include m-border-both;
-}
-.main-txt{
-	padding: 1em 0;
-	h3{
-		width: $wid-main;
-		margin: 0 auto;
-		padding: .3em 0;
-	}
-	h2{
-		width: $wid-main;
-		margin: 0 auto;
-		
-	}
-	h1{
-		width: $wid-main;
-		margin: 0 auto;
-	}
-	p{
-		width: $wid-main;
-		margin: 0 auto;
-	}
-	.map{
-		width: $wid-main;
-		
-		margin-right: auto;
-		margin-left: auto;
-	}
-}
-
-.spacer{
-	height: 4em;
-}
-.spacer2{
-	height: 2em;
-}
-
-.border-top1{
-	border-top: 1px solid #303030;
-}
-
-.wideph-nov{
-    @include m-wideph();
-}
-
-.wideph-index{
-	@include m-wideph;
-	
-}
-
-.wideph-content{
-    @include m-wideph-content;
-}
-
-.h-y-line{
-	border-bottom: 1px solid $color-dorado;
-	padding-bottom: 2px;
-	margin-bottom: 10px;
-	width: fit-content;
-}
-
-.txt-c{
-	text-align: center;
-}
-.prod-underline{
-	border-top: 1px solid $color-border;
-	margin: .5em 0;
-	width: 100%;
-}
-.underline{
-	border-top: 1px solid $color-border ;
-	width:	$wid-main;
-	margin: 1em auto; 
-}
-.underline-h3-large{
-	border-top: 1px solid $color-border ;
-	width:	$wid-main;
-	margin: .5em auto; 
-	
-}
-.underline-h3-short{
-	border-top: 1px solid $color-border ;
-	width:	50%;
-	
-	margin: .5em auto; 
-}
-
-.line{
-	height: 26vw;
-	
-	min-width: 1px;
-	background-color: $color-border;
-	margin: 2em;
-}
-
-.fnd-circulo{
-	background-image: url(../img/prod/bck2.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
-}
-
-.dos-img{
-	display: flex;
-	justify-content: center;
-	flex-direction: row;
-	align-items: center;
-    
-		
-	
-    img{
-        width: 35%;
-        margin: 2em 4em;
-        &:hover{
-            transform: scale(1.1);
-            transition: 1s;
-            cursor: pointer;
-        }
-    }
-    
-}
-
-.w-small{
-	width: 4.5em;
-	margin: .5 auto;
-	margin-top: 1em;
-}
-
-.bg-grey{
-	background-color: #eeeeee;
-
-}
 
 
 .productos1{
@@ -974,6 +669,7 @@
 }
 
 
+
 .arrow-down, .arrow-down-b{
 	width: 6em;
 	position: absolute;
@@ -992,135 +688,13 @@
 }
 
 
-.img-wide{
-	
-	padding: 4em 0px;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-image: url(../img/wideph/all500.jpg);
-	
-
-	
-}
-.pd-3em{
-	padding: 3em;
-}
 
 
-.div-3-btom{
-	margin: auto;
-	
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	
-	div:first-child{
-		background-image: url(../img/wideph/bar.jpg);
-		
-		}
-	div:nth-child(2){
-		background-image: url(../img/wideph/glass1.jpg);
-		}
-	div:last-child{
-			background-image: url(../img/wideph/latam.jpg);
-			}
-
-	div{
-		width: 32%;
-		height: 70vh;
-		display: flex;
-		justify-content: center;
-		padding: 0em 2em;
-		align-items: center;
-		flex-direction: column;
-		border-radius: $border-radius;
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		margin: 1.6em 0;
-		border: 0.5px solid #262626;
-		
-		
-
-		&:hover{
-			animation-name: border;
-			animation-duration: .4s;
-			animation-fill-mode: forwards;
-		
-		}
-	
-		h3, p{
-		text-align: center;
-		padding: 0em;
-		}
-
-		h3{
-			color: $color-dorado;
-		}
-		a{
-			margin: 1em;
-			@include m-button; 
-			
-		}
-	
-	
-	}
-}
-
-@keyframes start1{
-	0%{
-		opacity: 0;
-
-	}
-	100%{
-		opacity: 1;
-	}
-	
-}
-
-@keyframes border{
-	0%{
-		
-	}
-	100%{
-		
-		border: 1px solid $color-dorado;
-		
-		
-	}
-	
-}
 
 
-@keyframes button{
-	0%{
-		
-		border: 0 px solid $color-dorado;
-		color: $color-dorado;
-	}
-	100%{
-		border: 1px solid $color-dorado;
-		color: $color-dorado;
-	}
-	
-}
 
-@keyframes arrow{
-	0%{
-		opacity: 0.05;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		opacity: 0.05;
-	}
-	
-	
-}
 
-/*---Comienza FORM---*/
+//----------------------Comienza FORM--------------//
 
 
 
@@ -1158,10 +732,5 @@ input[type=text], select, textarea {
 	padding: 20px;
   }
 
-/*---ENDS FORM---*/
+//---------------------------ENDS FORM------------------------//
 
-.img-tittle{
-	margin-top: 1em;
-	margin-bottom: .2em;
-	width: 35%;
-}

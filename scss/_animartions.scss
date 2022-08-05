@@ -1,0 +1,188 @@
+
+@keyframes border-1{
+	0%{
+		border-radius: $border-radius;
+	}
+	100%{
+		border-radius: 0px;
+		border-color: $color-dorado;
+	}
+}
+
+@keyframes bg-zoom-in{
+	0% {
+	background-size: 100%;
+	
+	}
+	100% {
+	background-size: 110%
+	
+	}
+} 
+
+@keyframes arrow{
+	0%{
+		opacity: 0.05;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0.05;
+	}
+	
+	
+}
+
+
+@keyframes border{
+	0%{
+		
+	}
+	100%{
+		
+		border: 1px solid $color-dorado;
+		
+	}
+	
+}
+
+@keyframes down-slide{
+	0% {
+	transform: translateY(-40%);
+	
+	}
+	100% {
+	transform: translateY(0);
+	
+	}
+} 
+
+
+@keyframes start{
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+	0%{
+		opacity: 0;
+	}
+}
+
+@keyframes slide{
+	0%{
+		background-position-x: 1000px;
+		
+		
+	}
+	100%{
+		background-position-x: right;
+		
+	}
+}
+
+
+@keyframes slide2{
+	0%{
+		background-position-x: 1000px;
+		
+		
+	}
+	100%{
+		background-position-x: right;
+		
+	}
+}
+
+@keyframes slide3{
+	0%{
+		background-position-x: 1000px;
+		
+		
+	}
+	100%{
+		background-position-x: right;
+		
+	}
+}
+@keyframes slide4{
+	0%{
+		background-position-x: 1000px;
+		
+		
+	}
+	100%{
+		background-position-x: right;
+		
+	}
+}
+
+@keyframes slide34{
+	0%{
+		background-position-y: 800px;
+		
+		
+	}
+	100%{
+		background-position-y: bottom;
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

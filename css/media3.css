@@ -53,6 +53,8 @@
 
 
 @media only screen and (max-width: 1300px){
+	
+
 	.header-info, .header-contacto, .header-sabores, .header-recetas, .header-novedades{
 		animation: slide4 2s;
 		background-position-x: 0px;
@@ -326,12 +328,7 @@
 		
 	  } 
 
-	  .demo h2{
-		font: 3em 'Secular One', sans-serif;
-		text-align: center;
-		font
-		
-	  }
+
 
 	  .demo img {
 		max-width: 2.5em;
@@ -399,17 +396,7 @@
 
 	/*------------------------------------------NUEVO SABOR START */
 
-	.dosimg-cont{
-		flex-direction: column;
-	}
-	.dosimg-cont div:last-child{
-		width: 100%;
-		
-	}
-	.dos-img-center .left img{
-		width: 100%;
-	}
-	
+
 	.new-s .txt-new h4{
 	
 		font-size: 1.8em;
@@ -469,17 +456,8 @@
 	padding: 1em;
 }
 
-.dos-img-center{
-	
-	width: unset;
-}
-	
 
-.dos-img-center .left img{
-	width: 11em;
-	margin: auto;
-}
-	
+
 
 
 /*------------------------------------------NUEVO SABOR END */

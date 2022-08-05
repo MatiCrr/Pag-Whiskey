@@ -623,7 +623,7 @@
         color: #eabe3f;
         border: 1px solid #eabe3f; }
     .cuadros .cuadro1:hover, .cuadros .cuadro2:hover, .cuadros .cuadro3:hover {
-      animation: border .4s;
+      animation: border-1 .4s;
       animation-fill-mode: forwards; }
   .cuadros .cuadro2 {
     margin-bottom: 0px; }
@@ -684,7 +684,7 @@
   background-repeat: no-repeat;
   width: 49%;
   height: 600px;
-  background-image: url(../img/bckgrounds/paris.jpg);
+  background-image: url(../img/bckgrounds/paris.webp);
   width: 49%; }
 
 .img-lat-recetas {
@@ -694,7 +694,7 @@
   background-repeat: no-repeat;
   width: 49%;
   height: 600px;
-  background-image: url(../img/bckgrounds/coctel.jpg); }
+  background-image: url(../img/bckgrounds/coctel.webp); }
 
 .txt-lat, .txt-lat-in {
   width: 51%;
@@ -772,6 +772,13 @@
     .txt-lat-in a:hover {
       color: #eabe3f;
       border: 1px solid #eabe3f; }
+
+@keyframes border-1 {
+  0% {
+    border-radius: 10px; }
+  100% {
+    border-radius: 0px;
+    border-color: #eabe3f; } }
 
 @keyframes start {
   0% {
