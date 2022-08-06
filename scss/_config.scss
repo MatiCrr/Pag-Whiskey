@@ -1,6 +1,13 @@
 // -------------------CONFIG--------------------CONFIG---- //
 
 
+.pd-top{
+	padding-top: .5em;
+}
+
+.pd-top-1{
+	padding-top: 1em;
+}
 
 .pd-3em{
 	padding: 3em;
@@ -12,7 +19,7 @@
 
 .underline-1{
 	padding: .2em 0;
-	margin-bottom: .2em;
+	
 	border-bottom: 1px solid $color-border;
 }
 
@@ -242,7 +249,7 @@
 
 .manhattan-img, .cafe-img, .collins-img, .mint-img{
 	background-size: cover;
-	
+	margin: 1em auto;
 	display: flex;
 	padding: 11em 0;
 	
@@ -511,6 +518,7 @@
 		display: flex;
 		justify-content: space-between;
 		
+		
 	}
 	
 
@@ -700,13 +708,13 @@
 
 input[type=text], select, textarea {
 	width: 100%; 
-	padding: 12px; /* Some padding */ 
-	border: 1px solid #ccc; /* Gray border */
-	border-radius: 4px; /* Rounded borders */
-	box-sizing: border-box; /* Make sure that padding and width stays in place */
-	margin-top: 6px; /* Add a top margin */
-	margin-bottom: 16px; /* Bottom margin */
-	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px; 
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical 
   }
 
   mg-1{

@@ -9,6 +9,7 @@
 	}
 	.headerimg{
 		background-position: left;
+		animation: slide 2s;
 	}
 
 }

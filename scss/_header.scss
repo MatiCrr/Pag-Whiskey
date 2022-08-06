@@ -46,13 +46,7 @@
     
 }
 
-.dorado-h2{
-    
-    color: $color-dorado;
-        
-        
-   
-}
+
 .txt-content{
    
     h2{
@@ -80,41 +74,6 @@
 }
 
 
-.header-in{
-    width: 80%;
-    align-content: center;
-    margin: 0 auto;
-   
-    
-    animation: start 2s;
-    height: 100%;
-                   
-    .txt-content2{
-        width: 50%;
-        img{
-            width: 100%;
-        }
-        a{
-            margin-top: 2em;
-			@include m-button; 
-        }
-      
-       h1{
-        font-size: 5em;
-       
-       }
-    }
-   
-    .img-content2{
-        width: 50%;
-        display: flex;
-        
-        justify-content: flex-end;
-        img{
-            width: 100%;
-        }
-    }
-}
 
 
 
@@ -131,7 +90,7 @@
 
 
 
-// NEW HEADER beibe
+
 
 .headerbb{
     display: none;
@@ -227,14 +186,14 @@
 
 .headerimg{
     @include m-headerimg;
-    background-image: url(../img/bckgrounds/vg3.jpg);
-    animation-name: slide1;
+    background-image: url(../img/bckgrounds/vg3.webp);
+    animation-name: slide 2s;
  
 }
 
 .header-sabores{
     @include m-headerimg;
-    background-image: url(../img/bckgrounds/vg9.jpg);
+    background-image: url(../img/bckgrounds/vg9.webp);
    
 }
 
@@ -262,7 +221,7 @@
 .header-recetas{
     @include m-headerimg;
 
-    background-image: url(../img/bckgrounds/vg12.jpg);
+    background-image: url(../img/bckgrounds/vg12.webp);
    
 }
 
