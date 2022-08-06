@@ -158,8 +158,39 @@
 // -------------------CONFIG--------------------CONFIG---- //
 
 
-
-
+.error-cont{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	background-color: #eeeeee;
+	
+}
+.error-404{
+	background-color: rgb(245, 245, 245);
+	box-shadow: 20px black;
+	padding: 5em;
+	border: 1px solid $color-border;
+	border-radius: $border-radius;
+	display: flex;
+	margin: auto;
+	align-items: center;
+	
+	flex-direction: column;
+	
+	h2{
+		font-family: 'Secular One', sans-serif;
+		color: #262626;
+		font-size: 3em;
+		margin-top: .2em;
+		margin-bottom: .2em;
+	}
+	a{
+		@include m-button;
+	}
+	img{
+		width: 7em;
+	}
+}
 
 
 
@@ -266,23 +297,23 @@
 
 
 .manhattan-img{
-	background-image: url(../img/recetas/man2.jpg);
+	background-image: url(../img/recetas/man2.webp);
 	
 }
 
 .collins-img{
-	background-image: url(../img/recetas/nor2.jpg);
+	background-image: url(../img/recetas/nor2.webp);
 	
 }
 
 
 .cafe-img{
-	background-image: url(../img/recetas/cof2.jpg);
+	background-image: url(../img/recetas/cof2.webp);
 	
 }
 
 .mint-img{
-	background-image: url(../img/recetas/mint.jpg);
+	background-image: url(../img/recetas/mint.webp);
 	
 }
 
@@ -299,21 +330,21 @@
 		display: flex;
 	}
 	.cuadro1{
-		background-image: url(../img/recetas/nor2.jpg);
+		background-image: url(../img/recetas/nor2.webp);
 		
 	}
 	.cuadro2{
-		background-image: url(../img/recetas/cof2.jpg);
+		background-image: url(../img/recetas/cof2.webp);
 		
 	}
 	.cuadro3{
-		background-image: url(../img/recetas/man2.jpg);
+		background-image: url(../img/recetas/man2.webp);
 		width: 50%;
 
 		
 	}
 	.cuadro4{
-		background-image: url(../img/recetas/mint.jpg);
+		background-image: url(../img/recetas/mint.webp);
 		width: 50%;
 		margin-left: .1em;
 		border-radius: 0px  $border-radius $border-radius 0px;
@@ -726,13 +757,25 @@ input[type=text], select, textarea {
 	color: white;
 	padding: 12px 20px;
 	border: none;
-	border-radius: 4px;
+	border-radius: 10px;
 	cursor: pointer;
-	&:hover {
-		background-color: $color-dorado;
-	  }
+	text-decoration: none;
+	
+	&:hover{
+		color: white;
+	}
+	
   }
-  
+  .boton-form-reset{
+	
+	background-color: $color-dorado;
+	color: white;
+	padding: 9px 17px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	
+  }
   
   .container {
 	border-radius: $border-radius;

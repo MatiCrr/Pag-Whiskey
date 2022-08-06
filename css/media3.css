@@ -8,7 +8,7 @@
 		background-size: cover;
 	}
 	.headerimg{
-		background-position: left;
+		background-position: center;
 		animation: slide 2s;
 	}
 
@@ -66,16 +66,7 @@
 
 }
 
-.headerimg{
-	
-	background-position-x: 0px;
-	background-position-y: center;
-	background-attachment: fixed;
-	background-size: cover;
-	
-	
-	
-}
+
 
 
 
@@ -250,7 +241,18 @@
 	
 	/*-----------------------------------------------HEADER BACKGROUND END*/
 
-
+	.error-404{
+	   padding: 2em;
+	}
+	.error-404 h2{
+		font-size: 1.8em;
+	 }
+	 .error-404 img{
+		width: 5em;
+	 }
+	 .error-404 a{
+		font-size: .7em;
+	 }
 
 	/*-----------------------------------------------HEADER START */
 	
@@ -271,7 +273,7 @@
 	
 	}
 	.nav-bg{
-		background-image:none;
+		background-color:transparent;
 		border-radius: 0px;
 		padding: 0px 0px;
 	}
